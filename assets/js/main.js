@@ -78,12 +78,23 @@
     check();
   }
 
-  /* ---------- Active menu item from current URL ---------- */
+  /* ---------- Active menu item (rules measured on the original) ----------
+     - exact page of a top-level item -> that item is highlighted (red; green for "Phát triển bền vững")
+     - /phat-trien-khu-do-thi-nha-o/ and every /khu-do-thi-nha-o/<slug>/ -> "Dự án"
+     - other sub/detail pages -> no top-level item; a matching mega-menu link is marked instead
+     Paths are compared by their ending, so it also works when the site is served from a sub-folder. */
   (function () {
-    var path = location.pathname.replace(/index\.html$/, '');
-    $('.menu__item > a, .footer__menu a').each(function () {
-      var href = (this.getAttribute('href') || '').split('#')[0];
-      if (href && href !== '/' && path.indexOf(href) === 0) $(this).addClass('is-current').parent('.menu__item').addClass('is-current');
+    var path = decodeURI(location.pathname).replace(/index\.html$/, '');
+    if (!/\/$/.test(path)) path += '/';
+    var clean = function (href) { return (href || '').split('#')[0].split('?')[0]; };
+    var isPage = function (href) { href = clean(href); return href && href !== '/' && path.slice(-href.length) === href; };
+    $('.menu > .menu__item > a').each(function () {
+      var href = clean(this.getAttribute('href'));
+      var hit = isPage(href) || (href === '/phat-trien-khu-do-thi-nha-o/' && /\/khu-do-thi-nha-o\/[^/]+\/$/.test(path));
+      if (hit) $(this).addClass('is-current').parent().addClass('is-current');
+    });
+    $('.mega__links a').each(function () {
+      if (!/#/.test(this.getAttribute('href') || '') && isPage(this.getAttribute('href'))) $(this).addClass('is-current');
     });
   })();
 

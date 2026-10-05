@@ -25,10 +25,12 @@ function wrap(shellPath, meta, main) {
   head = head.replace(/\s*<link rel="stylesheet" href="\/assets\/css\/pages\/[^"]+">/g, '')
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(meta.title)}</title>`)
     .replace(/<body class="([^"]*)">/, () => `<body class="is-loading ${meta.bodyClass || ''}">`)
-    .replace('</head>', (meta.css || []).map((c) => `  <link rel="stylesheet" href="/assets/css/pages/${c}">\n`).join('') + '</head>');
+    .replace('</head>', (meta.css || []).map((c) => `  <link rel="stylesheet" href="/assets/css/pages/${c}${(src.match(/style\.css\?v=([\w-]+)/) || [, ''])[1] ? '?v=' + src.match(/style\.css\?v=([\w-]+)/)[1] : ''}">\n`).join('') + '</head>');
+  const ver = (src.match(/main\.js\?v=([\w-]+)/) || [])[1];   // reuse the shell's cache-busting version
+  const q = ver ? '?v=' + ver : '';
   foot = foot.replace(/\s*<script src="\/assets\/js\/pages\/[^"]+"><\/script>/g, '')
-    .replace('<script src="/assets/js/main.js"></script>',
-      (meta.scripts || []).map((s) => `<script src="${s.startsWith('http') ? s : '/assets/js/' + s}"></script>\n  `).join('') + '<script src="/assets/js/main.js"></script>');
+    .replace(/<script src="\/assets\/js\/main\.js(\?v=[\w-]+)?"><\/script>/,
+      (m) => (meta.scripts || []).map((s) => `<script src="${s.startsWith('http') ? s : '/assets/js/' + s + q}"></script>\n  `).join('') + m);
   return head + main + foot;
 }
 

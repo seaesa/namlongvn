@@ -2,8 +2,6 @@
 (function ($) {
   'use strict';
 
-  /* Header: /khu-do-thi-nha-o/* belongs to the "Dự án" menu (main.js only matches by URL prefix) */
-  $('.menu__item > a[href="/phat-trien-khu-do-thi-nha-o/"]').addClass('is-current').parent('.menu__item').addClass('is-current');
 
   /* Gallery (.sbusiness): options read from the original */
   $('.js-pd-gallery').slick({

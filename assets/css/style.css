@@ -856,3 +856,7 @@ body.is-loading .hero__title, body.is-loading .hero__desc { animation: none !imp
 .search-pager span { border: 0; }
 @media (max-width: 991px) { .search-page__inner { margin: 40px 12px 0; } }
 @media (max-width: 767px) { .search-result h3 { font-size: 18px; line-height: 25px; } }
+
+/* active nav colours (original: red; "Phát triển bền vững" uses its leaf green) */
+.menu__item--leaf.is-current > a { color: #619c4e; }
+.mega__links a.is-current { color: var(--red); }
