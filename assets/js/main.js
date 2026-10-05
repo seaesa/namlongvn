@@ -115,6 +115,7 @@
     if (isDesktop()) $body.removeClass('interest-open');
   });
   $('.menu-backdrop').on('click', function () { $body.removeClass('interest-open mega-open'); });
+  $('.interest__tab').each(function () { $('#' + $(this).data('target')).attr('data-label', $.trim($(this).text())); });
   $('.interest__tab').on('mouseenter click', function () {
     var target = $(this).data('target');
     $(this).addClass('is-active').siblings().removeClass('is-active');
@@ -124,6 +125,7 @@
   /* ---------- Mobile menu ---------- */
   $('.js-toggle-menu').on('click', function () {
     $body.toggleClass('menu-open no-scroll');
+    $('html').toggleClass('no-scroll', $body.hasClass('menu-open'));
     if (!$body.hasClass('menu-open')) $body.removeClass('interest-open');
   });
   // < 768 with a mouse: hovering a parent opens its sub-list (closes on leave),
@@ -150,7 +152,7 @@
   });
   $win.on('resize', function () {
     if (isDesktop()) {
-      $body.removeClass('menu-open no-scroll');
+      $body.removeClass('menu-open no-scroll'); $('html').removeClass('no-scroll');
       $('.menu__item.has-sub').removeClass('is-open').children('.mega').removeAttr('style');
     }
   });
@@ -228,28 +230,29 @@
   $('.js-open-search').on('click', function (e) {
     e.preventDefault();
     var open = !$body.hasClass('search-open');
-    $body.toggleClass('search-open', open).removeClass('menu-open no-scroll interest-open');
+    $body.toggleClass('search-open', open).removeClass('menu-open no-scroll interest-open'); $('html').removeClass('no-scroll');
     $('.js-open-search').toggleClass('is-close', open);
     window.scrollTo(0, 0);
     if (open) setTimeout(function () { $('.search__input').trigger('focus'); }, 300);
   });
   $(document).on('keydown', function (e) {
     if (e.key === 'Escape') {
-      $body.removeClass('search-open interest-open menu-open no-scroll mega-open');
+      $body.removeClass('search-open interest-open menu-open no-scroll mega-open'); $('html').removeClass('no-scroll');
       $('.js-open-search').removeClass('is-close');
     }
   });
 
-  /* ---------- Sticky header on tablet/mobile (hide on scroll down, show on up) ---------- */
+  /* ---------- Header on scroll (measured): below 768px the header pins to the top as soon as the
+     user scrolls up and is released on scroll-down or at y=0; from 768px up it always stays in flow. */
   var lastY = 0;
   var header = document.getElementById('siteHeader');
   function onScroll() {
     var y = window.scrollY;
-    if (!isDesktop() && !$body.hasClass('menu-open')) {
-      header.classList.toggle('is-stuck', y > 10);
-      header.classList.toggle('is-hidden', y > 200 && y > lastY);
+    if (window.innerWidth < 768 && !$body.hasClass('menu-open') && !$body.hasClass('page-investor')) {
+      if (y <= 0 || y > lastY) header.classList.remove('is-fixed');
+      else if (y < lastY) header.classList.add('is-fixed');
     } else {
-      header.classList.remove('is-hidden', 'is-stuck');
+      header.classList.remove('is-fixed');
     }
     lastY = y;
     updateGotop(y);
@@ -260,10 +263,9 @@
   var gotop = document.getElementById('gotop');
   var footer = document.querySelector('.footer');
   function updateGotop(y) {
-    gotop.classList.toggle('show', y > 600);
-    // white outline over the red footer, filled red elsewhere
-    var overFooter = footer.getBoundingClientRect().top < window.innerHeight - 40;
-    gotop.classList.toggle('on-light', !overFooter);
+    var max = document.documentElement.scrollHeight - window.innerHeight;
+    gotop.classList.toggle('show', max > 0 && y > max * 0.7);
+    gotop.classList.toggle('on-footer', footer.getBoundingClientRect().top < window.innerHeight - 40);
   }
   gotop.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
 
