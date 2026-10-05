@@ -1,0 +1,1825 @@
+## body
+  display: block
+  width: 1440px
+  height: 3410.55px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  backgroundColor: rgb(255, 255, 255)
+  textDecoration: none
+  _box: 0,0,1440,3411
+## #header
+  display: flex
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  zIndex: 100
+  width: 1440px
+  height: 90px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  overflow: hidden
+  alignItems: center
+  textDecoration: none
+  _box: 0,0,1440,90
+## #header .container
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  zIndex: 50
+  width: 1240px
+  height: 90px
+  maxWidth: 1240px
+  minHeight: auto
+  margin: 0px 100px
+  padding: 0px 12px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 100,0,1240,90
+## .main-menu-container
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  zIndex: 3
+  width: 1240px
+  height: 70px
+  maxWidth: 100%
+  minHeight: auto
+  margin: 10px 0px
+  padding: 0px 12px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  textDecoration: none
+  _box: 100,10,1240,70
+## .logo-h img
+  display: inline
+  width: 90px
+  height: 53.25px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(13, 110, 253)
+  textAlign: left
+  transition: none
+  overflow: clip
+  cursor: pointer
+  textDecoration: none
+  _box: 124,18,90,53
+## .main-menu
+  display: block
+  width: 920.039px
+  height: 70px
+  minHeight: auto
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: left
+  textDecoration: none
+  _box: 294,10,920,70
+## .main-menu > li
+  display: inline-block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 82.6406px
+  height: 68px
+  padding: 22px 11px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: left
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  textDecoration: none
+  _box: 294,12,83,68
+## .main-menu > li > a
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 60.6406px
+  height: 24px
+  fontFamily: BT-BeauSans-Regular
+  fontSize: 13.28px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(37, 43, 55)
+  textAlign: left
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 305,34,61,24
+## .mn-sustain > a
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 141.641px
+  height: 26px
+  fontFamily: BT-BeauSans-Regular
+  fontSize: 13.28px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(37, 43, 55)
+  textAlign: left
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 747,32,142,26
+  _after: {"content":"\" \"","w":"15px","h":"19px","bg":"url(\"https://www.namlongvn.com/wp-content/themes/namlong/images/ico-sustain.svg\")","bgc":"rgba(0, 0, 0, 0)","pos":"relative","t":"2px","l":"5px","r":"-5px","b":"-2px","tr":"all","tf":"none","op":"1","ml":"0px","bs":"contain","d":"inline-block"}
+## .navi-head .w_search_form .search_form
+  display: block
+  width: 19px
+  height: 21px
+  minHeight: auto
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(13, 110, 253)
+  textAlign: left
+  backgroundImage: url("https://www.namlongvn.com/wp-content/themes/namlong/images/ico-search.svg")
+  backgroundSize: contain
+  backgroundPosition: 50% 50%
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 1222,35,19,21
+## .lang
+  display: block
+  width: 72.3594px
+  height: 24.5px
+  minHeight: auto
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: left
+  textDecoration: none
+  _box: 1256,33,72,25
+## .lang a
+  display: inline-block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 27.3906px
+  height: 24px
+  padding: 0px 7px
+  fontFamily: BT-BeauSans-B
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(152, 34, 31)
+  textTransform: uppercase
+  textAlign: left
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 1256,33,27,24
+  _before: {"content":"\"\"","w":"1px","h":"16px","bg":"none","bgc":"rgb(24, 29, 39)","pos":"absolute","t":"4px","l":"29.3906px","r":"-3px","tr":"all","tf":"none","op":"1","ff":"BT-BeauSans-B","fs":"14px","c":"rgb(152, 34, 31)","bs":"auto"}
+## .lang a.act-l
+  display: inline-block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 27.3906px
+  height: 24px
+  padding: 0px 7px
+  fontFamily: BT-BeauSans-B
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(152, 34, 31)
+  textTransform: uppercase
+  textAlign: left
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 1256,33,27,24
+  _before: {"content":"\"\"","w":"1px","h":"16px","bg":"none","bgc":"rgb(24, 29, 39)","pos":"absolute","t":"4px","l":"29.3906px","r":"-3px","tr":"all","tf":"none","op":"1","ff":"BT-BeauSans-B","fs":"14px","c":"rgb(152, 34, 31)","bs":"auto"}
+## .slider-top
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 1440px
+  height: 660px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  overflow: hidden
+  textDecoration: none
+  _box: 0,90,1440,660
+## .slider_banner
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 1440px
+  height: 660px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 0,90,1440,660
+## .img-sl img
+  display: block
+  width: 1440px
+  height: 660px
+  maxWidth: 100%
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  overflow: clip
+  objectFit: cover
+  textDecoration: none
+  _box: 0,90,1440,660
+## .txt-banner
+  display: block
+  position: absolute
+  top: 579.422px
+  right: 0px
+  bottom: 86.5781px
+  left: 0px
+  zIndex: 99
+  width: 1440px
+  height: 0px
+  padding: 0px 0px 0px 108px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  overflow: hidden
+  textDecoration: none
+  _box: 0,669,1440,0
+## .name-banner
+  display: block
+  width: 1332px
+  height: 132px
+  margin: 0px 0px 10px
+  fontFamily: BT-BeauSans-M
+  fontSize: 55px
+  fontWeight: 500
+  lineHeight: 66px
+  color: rgb(255, 255, 255)
+  textAlign: start
+  transform: matrix(1, 0, 0, 1, 0, 0)
+  animation: 0.4s 0.1s forwards fadeInUpSD
+  textDecoration: none
+  _box: 108,479,1332,132
+## .des-banner
+  display: block
+  width: 1332px
+  height: 48px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(255, 255, 255)
+  textAlign: start
+  transform: matrix(1, 0, 0, 1, 0, 0)
+  animation: 0.8s 0.2s forwards fadeInUpSD
+  textDecoration: none
+  _box: 108,621,1332,48
+## .slider_banner .slick-dots
+  display: block
+  position: absolute
+  top: 611px
+  right: 1232px
+  bottom: 25px
+  left: 0px
+  width: 208px
+  height: 24px
+  padding: 0px 0px 0px 108px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: center
+  textDecoration: none
+  _box: 0,701,208,24
+## .slider_banner .slick-dots li
+  display: inline-block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 10px
+  height: 10px
+  margin: 0px 5px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: center
+  cursor: pointer
+  textDecoration: none
+  _box: 113,714,10,10
+## .slider_banner .slick-dots li button
+  display: block
+  width: 10px
+  height: 10px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 0px
+  fontWeight: 400
+  lineHeight: 0px
+  color: rgba(0, 0, 0, 0)
+  textAlign: center
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 113,714,10,10
+  _before: {"content":"\"•\"","w":"10px","h":"10px","bg":"none","bgc":"rgba(0, 0, 0, 0)","pos":"absolute","t":"0px","l":"0px","r":"0px","tr":"all","tf":"none","op":"0.3","ff":"slick","fs":"9px","c":"rgb(233, 234, 235)","bs":"auto"}
+## .slider_banner .slick-dots li.slick-active button
+  display: block
+  width: 10px
+  height: 10px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 0px
+  fontWeight: 400
+  lineHeight: 0px
+  color: rgba(0, 0, 0, 0)
+  textAlign: center
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 153,714,10,10
+  _before: {"content":"\"•\"","w":"10px","h":"10px","bg":"none","bgc":"rgba(0, 0, 0, 0)","pos":"absolute","t":"0px","l":"0px","r":"0px","tr":"all","tf":"none","op":"1","ff":"slick","fs":"9px","c":"rgb(255, 255, 255)","bs":"auto"}
+## .section.about
+  display: block
+  width: 1440px
+  height: 708.398px
+  padding: 60px 0px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 0,750,1440,708
+## .about .container
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  zIndex: 50
+  width: 1240px
+  height: 588.398px
+  maxWidth: 1240px
+  margin: 0px 100px
+  padding: 0px 12px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 100,810,1240,588
+## .h-two
+  display: grid
+  width: 1216px
+  height: 44.3984px
+  margin: 0px 0px 30px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  alignItems: center
+  textDecoration: none
+  _box: 112,810,1216,44
+## .h-two .title
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 851.195px
+  height: 44.3984px
+  minHeight: auto
+  fontFamily: BT-BeauSans-B
+  fontSize: 37px
+  fontWeight: 500
+  lineHeight: 44.4px
+  color: rgb(24, 29, 39)
+  textAlign: start
+  transform: matrix(1, 0, 0, 1, 0, 0)
+  animation: 1s 0.1s both fadeInUpShort
+  textDecoration: none
+  _box: 112,810,851,44
+## .view-more a
+  display: inline-block
+  position: relative
+  width: auto
+  height: auto
+  padding: 0px 45px 0px 0px
+  fontFamily: BT-BeauSans-M
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 23px
+  color: rgb(152, 34, 31)
+  textAlign: left
+  opacity: 0
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  whiteSpace: nowrap
+  _box: 0,0,0,0
+  _after: {"content":"\"\"","w":"20px","h":"20px","bg":"url(\"https://www.namlongvn.com/wp-content/themes/namlong/images/ico-more.svg\")","bgc":"rgba(0, 0, 0, 0)","pos":"absolute","t":"3px","l":"auto","r":"10px","b":"auto","tr":"0.5s cubic-bezier(0.65, 0, 0.35, 1)","tf":"none","op":"1","ml":"0px","bs":"contain","d":"block"}
+## .des-ab-comp p
+  display: block
+  width: 1216px
+  height: 48px
+  margin: 0px 0px 16px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 112,884,1216,48
+## .w-field
+  display: block
+  width: 1216px
+  height: 406px
+  margin: 30px 0px 0px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  transform: matrix(1, 0, 0, 1, 0, 0)
+  animation: 1s 0.3s both fadeInUpShort
+  textDecoration: none
+  _box: 112,962,1216,406
+## .s-linhvuc
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 1216px
+  height: 406px
+  margin: 0px 0px 30px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 112,962,1216,406
+## .s-linhvuc .slick-list
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 1236px
+  height: 406px
+  margin: 0px -10px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  transform: matrix(1, 0, 0, 1, 0, 0)
+  overflow: hidden
+  textDecoration: none
+  _box: 102,962,1236,406
+## .s-linhvuc .slick-slide
+  display: block
+  width: 309px
+  height: 406px
+  minHeight: 1px
+  padding: 0px 10px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 102,962,309,406
+## .s-linhvuc .anima-img
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 289px
+  height: 400px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(13, 110, 253)
+  textAlign: start
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  overflow: hidden
+  cursor: pointer
+  textDecoration: none
+  _box: -1124,962,289,400
+## .s-linhvuc .thumb-over
+  display: block
+  width: 289px
+  height: 400px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(13, 110, 253)
+  textAlign: start
+  borderRadius: 8px
+  overflow: hidden
+  cursor: pointer
+  textDecoration: none
+  _box: -1124,962,289,400
+## .s-linhvuc .thumb-over img
+  display: block
+  width: 289px
+  height: 400px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(13, 110, 253)
+  textAlign: start
+  transition: transform 0.5s
+  overflow: clip
+  objectFit: cover
+  cursor: pointer
+  textDecoration: none
+  _box: -1124,962,289,400
+## .s-linhvuc .overlay
+  display: block
+  position: absolute
+  top: 296px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 289px
+  height: 104px
+  minHeight: 104px
+  padding: 20px 15px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(13, 110, 253)
+  textAlign: start
+  backgroundColor: rgba(16, 17, 18, 0.5)
+  backgroundImage: linear-gradient(0deg, rgba(253, 253, 253, 0.2), rgba(253, 253, 253, 0.2)), none
+  backgroundSize: auto, auto
+  backgroundPosition: 0% 0%, 0% 0%
+  borderRadius: 16px 16px 8px 8px
+  cursor: pointer
+  textDecoration: none
+  _box: -1124,1258,289,104
+## .s-linhvuc h3
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 259px
+  height: 40.7969px
+  padding: 0px 23.3047px 0px 0px
+  fontFamily: BT-BeauSans-M
+  fontSize: 17px
+  fontWeight: 500
+  lineHeight: 20.4px
+  color: rgb(255, 255, 255)
+  textAlign: start
+  cursor: pointer
+  textDecoration: none
+  _box: -1109,1278,259,41
+  _after: {"content":"\"\"","w":"32px","h":"16px","bg":"url(\"https://www.namlongvn.com/wp-content/themes/namlong/images/icon-next-w.svg\")","bgc":"rgba(0, 0, 0, 0)","pos":"absolute","t":"4px","l":"227px","r":"0px","b":"20.7969px","tr":"0.5s cubic-bezier(0.65, 0, 0.35, 1)","tf":"none","op":"1","ml":"0px","bs":"contain","d":"block"}
+## .s-linhvuc .slick-prev
+  display: block
+  position: absolute
+  top: 203px
+  right: 1196px
+  bottom: 158px
+  left: -25px
+  zIndex: 2
+  width: 45px
+  height: 45px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 0px
+  fontWeight: 400
+  lineHeight: 0px
+  color: rgba(0, 0, 0, 0)
+  textAlign: center
+  backgroundColor: rgb(255, 255, 255)
+  border: 1px solid rgb(113, 118, 128)
+  borderTop: 1px solid rgb(113, 118, 128)
+  borderBottom: 1px solid rgb(113, 118, 128)
+  borderRadius: 50%
+  transform: matrix(1, 0, 0, 1, 0, -22.5)
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 87,1143,45,45
+  _before: {"content":"\"\"","w":"20px","h":"12px","bg":"url(\"https://www.namlongvn.com/wp-content/themes/namlong/images/ico-prev.svg\")","bgc":"rgba(0, 0, 0, 0)","pos":"absolute","t":"21.5px","l":"21.5px","r":"1.5px","tr":"0.5s cubic-bezier(0.65, 0, 0.35, 1)","tf":"matrix(1, 0, 0, 1, -10, -6)","op":"1","ff":"slick","fs":"20px","c":"rgb(255, 255, 255)","bs":"contain"}
+## .s-linhvuc .slick-next
+  display: block
+  position: absolute
+  top: 203px
+  right: -25px
+  bottom: 158px
+  left: 1196px
+  zIndex: 2
+  width: 45px
+  height: 45px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 0px
+  fontWeight: 400
+  lineHeight: 0px
+  color: rgba(0, 0, 0, 0)
+  textAlign: center
+  backgroundColor: rgb(255, 255, 255)
+  border: 1px solid rgb(113, 118, 128)
+  borderTop: 1px solid rgb(113, 118, 128)
+  borderBottom: 1px solid rgb(113, 118, 128)
+  borderRadius: 50%
+  transform: matrix(1, 0, 0, 1, 0, -22.5)
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 1308,1143,45,45
+  _before: {"content":"\"\"","w":"20px","h":"12px","bg":"url(\"https://www.namlongvn.com/wp-content/themes/namlong/images/ico-next.svg\")","bgc":"rgba(0, 0, 0, 0)","pos":"absolute","t":"21.5px","l":"21.5px","r":"1.5px","tr":"0.5s cubic-bezier(0.65, 0, 0.35, 1)","tf":"matrix(1, 0, 0, 1, -10, -6)","op":"1","ff":"slick","fs":"20px","c":"rgb(255, 255, 255)","bs":"contain"}
+## .s-linhvuc .slick-dots
+  display: block
+  position: absolute
+  top: 427px
+  right: 0px
+  bottom: -45px
+  left: 0px
+  width: 1216px
+  height: 24px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: center
+  textDecoration: none
+  _box: 112,1389,1216,24
+## .s-linhvuc .slick-dots li button
+  display: block
+  width: 10px
+  height: 10px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 0px
+  fontWeight: 400
+  lineHeight: 0px
+  color: rgba(0, 0, 0, 0)
+  textAlign: center
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 705,1402,10,10
+  _before: {"content":"\"•\"","w":"10px","h":"10px","bg":"none","bgc":"rgba(0, 0, 0, 0)","pos":"absolute","t":"0px","l":"0px","r":"0px","tr":"all","tf":"none","op":"1","ff":"slick","fs":"9px","c":"rgb(152, 34, 31)","bs":"auto"}
+## .section.news
+  display: block
+  width: 1440px
+  height: 547.898px
+  padding: 60px 0px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 0,1458,1440,548
+## .news .title
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 851.195px
+  height: 44.3984px
+  minHeight: auto
+  margin: 0px 0px 20px
+  fontFamily: BT-BeauSans-B
+  fontSize: 37px
+  fontWeight: 500
+  lineHeight: 44.4px
+  color: rgb(24, 29, 39)
+  textAlign: start
+  transform: matrix(1, 0, 0, 1, 0, 0)
+  animation: 1s 0.1s both fadeInUpShort
+  textDecoration: none
+  _box: 112,1518,851,44
+## .s-news .slick-slide
+  display: block
+  width: 416px
+  height: 333.5px
+  minHeight: 1px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: -1567,1613,416,334
+## .item-news .thumb-over
+  display: block
+  width: 386px
+  height: 232px
+  margin: 0px 0px 10px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(13, 110, 253)
+  textAlign: start
+  borderRadius: 8px
+  overflow: hidden
+  cursor: pointer
+  textDecoration: none
+  _box: -2800,1613,386,232
+## .item-news img
+  display: block
+  width: 386px
+  height: 232px
+  maxWidth: 100%
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(13, 110, 253)
+  textAlign: start
+  transition: transform 0.5s
+  overflow: clip
+  objectFit: cover
+  cursor: pointer
+  textDecoration: none
+  _box: -2800,1613,386,232
+## .item-news span
+  display: inline
+  width: auto
+  height: auto
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(113, 118, 128)
+  textAlign: start
+  cursor: pointer
+  textDecoration: none
+  _box: -2800,1857,76,21
+## .item-news h4
+  display: flow-root
+  width: 386px
+  height: 43px
+  margin: 10px 0px 8px
+  fontFamily: BT-BeauSans-B
+  fontSize: 16px
+  fontWeight: 500
+  lineHeight: 21px
+  color: rgb(24, 29, 39)
+  textAlign: start
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  overflow: hidden
+  cursor: pointer
+  textDecoration: none
+  _box: -2800,1889,386,43
+## .s-business
+  display: block
+  width: 1440px
+  height: 359.398px
+  padding: 60px 0px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 0,2006,1440,359
+## .title-number
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 1240px
+  height: 44.3984px
+  minHeight: auto
+  margin: 0px 0px 20px
+  fontFamily: BT-BeauSans-B
+  fontSize: 37px
+  fontWeight: 500
+  lineHeight: 44.4px
+  color: rgb(24, 29, 39)
+  textAlign: start
+  transform: matrix(1, 0, 0, 1, 0, 0)
+  animation: 1s 0.1s both fadeInUpShort
+  textDecoration: none
+  _box: 100,2066,1240,44
+## .s-number-business
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 1416px
+  height: 145px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 12,2161,1416,145
+## .s-number-business .slick-slide
+  display: block
+  width: 472px
+  height: 145px
+  minHeight: 1px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: -1530,2161,472,145
+## .item-num
+  display: inline-block
+  width: 472px
+  height: 145px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: center
+  animation: 0s 0.4s
+  textDecoration: none
+  _box: -2946,2161,472,145
+## .item-count
+  display: block
+  width: 472px
+  height: 72px
+  fontFamily: BT-BeauSans-M
+  fontSize: 74.4px
+  fontWeight: 400
+  lineHeight: 72px
+  color: rgb(152, 34, 31)
+  textAlign: center
+  textDecoration: none
+  _box: -2946,2161,472,72
+## .t-num
+  display: block
+  width: 472px
+  height: 24px
+  margin: 15px 0px 10px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 20px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(152, 34, 31)
+  textAlign: center
+  textDecoration: none
+  _box: -2946,2248,472,24
+## .des-num
+  display: block
+  width: 472px
+  height: 24px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: center
+  textDecoration: none
+  _box: -2946,2282,472,24
+## .s-commitment
+  display: block
+  width: 1440px
+  height: 608.398px
+  padding: 60px 0px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 0,2366,1440,608
+## .s-commitment .title
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 1216px
+  height: 44.3984px
+  minHeight: auto
+  margin: 0px 0px 20px
+  fontFamily: BT-BeauSans-B
+  fontSize: 37px
+  fontWeight: 500
+  lineHeight: 44.4px
+  color: rgb(24, 29, 39)
+  textAlign: start
+  transform: matrix(1, 0, 0, 1, 0, 0)
+  animation: 1s 0.1s both fadeInUpShort
+  textDecoration: none
+  _box: 112,2426,1216,44
+## .des-t p
+  display: block
+  width: 1216px
+  height: 48px
+  margin: 0px 0px 16px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 112,2490,1216,48
+## .slide-commit
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 1216px
+  height: 350px
+  minHeight: 350px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  transform: matrix(1, 0, 0, 1, 0, 0)
+  animation: 1s 0.3s both fadeInUpShort
+  textDecoration: none
+  _box: 112,2564,1216,350
+## .slide-commit .slick-slide
+  display: block
+  width: 392px
+  height: 300.188px
+  minHeight: 1px
+  margin: 0px 10px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: -2426,2564,392,300
+## .slide-commit .item-num
+  display: flex
+  width: 392px
+  height: 300.188px
+  padding: 20px 24px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: center
+  backgroundColor: rgb(245, 245, 245)
+  justifyContent: center
+  alignItems: center
+  flexDirection: column
+  textDecoration: none
+  _box: -3662,2564,392,300
+## .slide-commit .item-count
+  display: block
+  width: 252.805px
+  height: 72px
+  fontFamily: BT-BeauSans-M
+  fontSize: 62.4px
+  fontWeight: 400
+  lineHeight: 72px
+  color: rgb(152, 34, 31)
+  textAlign: center
+  textDecoration: none
+  _box: -3593,2604,253,72
+## .slide-commit .t-num
+  display: block
+  width: 252.805px
+  height: 51.1953px
+  minHeight: 51.2px
+  margin: 15px 0px 10px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 20px
+  fontWeight: 400
+  lineHeight: 25.6px
+  color: rgb(152, 34, 31)
+  textAlign: center
+  textDecoration: none
+  _box: -3593,2691,253,51
+## .slide-commit .des-num
+  display: block
+  width: 252.805px
+  height: 72px
+  minHeight: 72px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: center
+  textDecoration: none
+  _box: -3593,2752,253,72
+## footer
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 1440px
+  height: 436.453px
+  padding: 32px 0px 0px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(245, 245, 245)
+  textAlign: start
+  backgroundColor: rgb(152, 34, 31)
+  overflow: hidden
+  textDecoration: none
+  _box: 0,2974,1440,436
+## footer .container
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  zIndex: 50
+  width: 1240px
+  height: 309.938px
+  maxWidth: 1240px
+  margin: 0px 100px
+  padding: 0px 12px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(245, 245, 245)
+  textAlign: start
+  textDecoration: none
+  _box: 100,3006,1240,310
+## .logo-f
+  display: inline
+  width: 149.156px
+  height: 94.7031px
+  maxWidth: 149.167px
+  margin: 0px 0px 20px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(245, 245, 245)
+  textAlign: start
+  overflow: clip
+  textDecoration: none
+  _box: 112,3006,149,95
+## .d-company-f h3
+  display: block
+  width: 570.805px
+  height: 18.0469px
+  margin: 20px 0px 10px
+  fontFamily: BT-BeauSans-M
+  fontSize: 15.04px
+  fontWeight: 500
+  lineHeight: 18.048px
+  color: rgb(245, 245, 245)
+  textTransform: uppercase
+  textAlign: start
+  textDecoration: none
+  _box: 112,3141,571,18
+## .d-company-f p
+  display: block
+  width: 570.805px
+  height: 24px
+  margin: 0px 0px 4.8px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(245, 245, 245)
+  textAlign: start
+  textDecoration: none
+  _box: 112,3169,571,24
+## .d-company-f strong
+  display: inline
+  width: auto
+  height: auto
+  fontFamily: BT-BeauSans-B
+  fontSize: 14px
+  fontWeight: 700
+  lineHeight: 24px
+  color: rgb(245, 245, 245)
+  textAlign: start
+  textDecoration: none
+  _box: 112,3170,33,21
+## .protection
+  display: inline-block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 244.805px
+  height: 24px
+  margin: 8px 0px 0px
+  fontFamily: BT-BeauSans-M
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(255, 255, 255)
+  textAlign: start
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 112,3292,245,24
+  _after: {"content":"\"\"","w":"244.805px","h":"1px","bg":"none","bgc":"rgb(255, 255, 255)","pos":"absolute","t":"23px","l":"0px","r":"0px","b":"0px","tr":"all","tf":"none","op":"1","ml":"0px","bs":"auto","d":"block"}
+## .menu-footer
+  display: block
+  width: 546px
+  height: 80px
+  minHeight: auto
+  margin: 30px 0px 20px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(245, 245, 245)
+  textAlign: start
+  textDecoration: none
+  _box: 782,3142,546,80
+## .menu-footer a
+  display: inline-block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  width: 87.9297px
+  height: 40px
+  padding: 8px 24px 8px 0px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(233, 234, 235)
+  textAlign: start
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 782,3142,88,40
+## .r-footer
+  display: grid
+  width: 546px
+  height: 247.938px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(245, 245, 245)
+  textAlign: start
+  alignItems: end
+  textDecoration: none
+  _box: 782,3068,546,248
+## .connect-social
+  display: block
+  width: auto
+  height: auto
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(245, 245, 245)
+  textAlign: start
+  textDecoration: none
+  _box: 0,0,0,0
+## .social-w li
+  display: inline-block
+  width: auto
+  height: auto
+  margin: 0px 10px 0px 0px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(245, 245, 245)
+  textAlign: start
+  textDecoration: none
+  _box: 0,0,0,0
+## .link-social .icon
+  display: block
+  position: relative
+  width: 24px
+  height: 24px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(255, 255, 255)
+  textAlign: start
+  backgroundImage: url("https://www.namlongvn.com/wp-content/themes/namlong/images/ico-facebook-2.svg")
+  backgroundSize: 24px auto
+  backgroundPosition: 50% 50%
+  transition: 0.3s ease-in-out
+  overflow: hidden
+  cursor: pointer
+  textDecoration: none
+  _box: 0,0,0,0
+## footer .container > .row:last-child
+  display: flex
+  width: 1240px
+  height: 309.938px
+  margin: 0px -12px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(245, 245, 245)
+  textAlign: start
+  textDecoration: none
+  _box: 100,3006,1240,310
+## .copyright
+  display: block
+  position: relative
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  zIndex: 10
+  width: 617px
+  height: 25.7188px
+  maxWidth: 100%
+  minHeight: auto
+  padding: 0px 12px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(217, 217, 217)
+  textAlign: start
+  textDecoration: none
+  _box: 103,3365,617,26
+## .privacy img
+  display: inline
+  width: 121px
+  height: 24px
+  maxWidth: 100%
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 14px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(255, 255, 255)
+  textAlign: right
+  overflow: clip
+  cursor: pointer
+  textDecoration: none
+  _box: 1204,3367,121,24
+## #cookie-notice
+  display: block
+  position: fixed
+  top: 810.203px
+  right: -690px
+  bottom: 15px
+  left: 720px
+  zIndex: 100000
+  width: 1410px
+  height: 74.7969px
+  fontFamily: -apple-system, "system-ui", Arial, Roboto, "Helvetica Neue", sans-serif
+  fontSize: 13px
+  fontWeight: 400
+  lineHeight: 20px
+  color: rgb(33, 37, 41)
+  textAlign: center
+  backgroundColor: rgb(253, 253, 253)
+  borderRadius: 12px
+  transform: matrix(1, 0, 0, 1, -705, 0)
+  animation: fadeIn
+  textDecoration: none
+  _box: 15,810,1410,75
+## .cookie-notice-container
+  display: grid
+  zIndex: 2
+  width: 1410px
+  height: 74.7969px
+  padding: 15px 30px
+  fontFamily: -apple-system, "system-ui", Arial, Roboto, "Helvetica Neue", sans-serif
+  fontSize: 13px
+  fontWeight: 400
+  lineHeight: 20px
+  color: rgb(255, 255, 255)
+  textAlign: center
+  textDecoration: none
+  _box: 15,810,1410,75
+## #cn-notice-text
+  display: block
+  width: 769.5px
+  height: 44.7969px
+  minHeight: auto
+  fontFamily: -apple-system, "system-ui", Arial, Roboto, "Helvetica Neue", sans-serif
+  fontSize: 14.4px
+  fontWeight: 400
+  lineHeight: 22.4px
+  color: rgb(37, 43, 55)
+  textAlign: left
+  textDecoration: none
+  _box: 45,825,770,45
+## .cn-button
+  display: block
+  width: 214.82px
+  height: 36.3984px
+  minHeight: auto
+  margin: 0px 0px 0px 10px
+  padding: 10.4px 14.4px
+  fontFamily: -apple-system, "system-ui", Arial, Roboto, "Helvetica Neue", sans-serif
+  fontSize: 13.6px
+  fontWeight: 400
+  lineHeight: 13.6px
+  letterSpacing: 0.25px
+  color: rgb(37, 43, 55)
+  textAlign: center
+  backgroundColor: rgb(255, 255, 255)
+  border: 1px solid rgb(37, 43, 55)
+  borderTop: 1px solid rgb(37, 43, 55)
+  borderBottom: 1px solid rgb(37, 43, 55)
+  borderRadius: 40px
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  whiteSpace: nowrap
+  _box: 1015,829,215,36
+## #cn-accept-cookie
+  display: block
+  width: 214.82px
+  height: 36.3984px
+  minHeight: auto
+  margin: 0px 0px 0px 10px
+  padding: 10.4px 14.4px
+  fontFamily: -apple-system, "system-ui", Arial, Roboto, "Helvetica Neue", sans-serif
+  fontSize: 13.6px
+  fontWeight: 400
+  lineHeight: 13.6px
+  letterSpacing: 0.25px
+  color: rgb(37, 43, 55)
+  textAlign: center
+  backgroundColor: rgb(255, 255, 255)
+  border: 1px solid rgb(37, 43, 55)
+  borderTop: 1px solid rgb(37, 43, 55)
+  borderBottom: 1px solid rgb(37, 43, 55)
+  borderRadius: 40px
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  whiteSpace: nowrap
+  _box: 1015,829,215,36
+## #cn-refuse-cookie
+  display: block
+  width: 155.023px
+  height: 34.3984px
+  minHeight: auto
+  margin: 0px 0px 0px 10px
+  padding: 10.4px 14.4px
+  fontFamily: -apple-system, "system-ui", Arial, Roboto, "Helvetica Neue", sans-serif
+  fontSize: 13.6px
+  fontWeight: 400
+  lineHeight: 13.6px
+  letterSpacing: 0.25px
+  color: rgb(255, 255, 255)
+  textAlign: center
+  backgroundColor: rgb(152, 34, 31)
+  borderRadius: 40px
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  whiteSpace: nowrap
+  _box: 1240,830,155,34
+## .gotop
+  display: none
+  position: fixed
+  right: 20px
+  bottom: 20px
+  zIndex: 80
+  width: 42px
+  height: 42px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  border: 1px solid rgb(113, 118, 128)
+  borderTop: 1px solid rgb(113, 118, 128)
+  borderBottom: 1px solid rgb(113, 118, 128)
+  borderRadius: 50%
+  transition: 0.5s ease-in-out
+  justifyContent: center
+  alignItems: center
+  cursor: pointer
+  textDecoration: none
+  _box: 0,0,0,0
+  _before: {"content":"\"\"","w":"14px","h":"18px","bg":"url(\"https://www.namlongvn.com/wp-content/themes/namlong/images/ico-top.svg\")","bgc":"rgba(0, 0, 0, 0)","pos":"absolute","t":"auto","l":"auto","r":"auto","tr":"0.5s cubic-bezier(0.65, 0, 0.35, 1)","tf":"none","op":"1","ff":"BT-BeauSans-Regular, sans-serif","fs":"16px","c":"rgb(33, 37, 41)","bs":"contain"}
+## #preloader
+  display: none
+  position: fixed
+  top: 0px
+  left: 0px
+  zIndex: 9999
+  width: 100%
+  height: 100%
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  transition: background-color 0.8s, opacity 0.8s
+  justifyContent: center
+  alignItems: center
+  textDecoration: none
+  _box: 0,0,0,0
+## #preloader img
+  display: none
+  width: 150px
+  height: auto
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  transition: none
+  overflow: clip
+  textDecoration: none
+  _box: 0,0,0,0
+## #search
+  display: none
+  position: relative
+  top: 0px
+  left: 0px
+  zIndex: 20
+  width: 100%
+  height: 900px
+  margin: 0px 0px 60px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  backgroundColor: rgb(255, 255, 255)
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  textDecoration: none
+  _box: 0,0,0,0
+## .search-input
+  display: inline-block
+  width: 100%
+  height: auto
+  padding: 10px 40px 10px 0px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 20px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(113, 118, 128)
+  textAlign: start
+  borderBottom: 1px solid rgb(83, 88, 98)
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  overflow: clip
+  cursor: text
+  textDecoration: none
+  _box: 0,0,0,0
+## .t-search
+  display: block
+  width: auto
+  height: auto
+  margin: 35px 0px 20px
+  fontFamily: BT-BeauSans-B
+  fontSize: 24px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(24, 29, 39)
+  textAlign: start
+  opacity: 0
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  textDecoration: none
+  _box: 0,0,0,0
+## .s-return a
+  display: inline-block
+  width: auto
+  height: auto
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(37, 43, 55)
+  textAlign: start
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 0,0,0,0
+## .submenu
+  display: none
+  position: fixed
+  top: 100%
+  left: 0px
+  width: 100%
+  height: auto
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: left
+  textDecoration: none
+  _box: 0,0,0,0
+  _before: {"content":"\"\"","w":"auto","h":"100%","bg":"none","bgc":"rgb(255, 255, 255)","pos":"absolute","t":"auto","l":"-9999px","r":"-9999px","tr":"0.5s cubic-bezier(0.65, 0, 0.35, 1)","tf":"none","op":"1","ff":"BT-BeauSans-Regular, sans-serif","fs":"16px","c":"rgb(33, 37, 41)","bs":"auto"}
+## .top-menu
+  display: grid
+  position: relative
+  zIndex: 3
+  width: auto
+  height: auto
+  padding: 4% 0px 3%
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: left
+  gap: 0px 32px
+  alignItems: center
+  textDecoration: none
+  _box: 0,0,0,0
+## .t-menu
+  display: block
+  width: auto
+  height: auto
+  margin: 0px 0px 16px
+  fontFamily: BT-BeauSans-B
+  fontSize: 17px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(24, 29, 39)
+  textAlign: left
+  opacity: 0
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  textDecoration: none
+  _box: 0,0,0,0
+## .left-menu
+  display: block
+  width: auto
+  height: auto
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: left
+  textDecoration: none
+  _box: 0,0,0,0
+## .item-menu a
+  display: block
+  position: relative
+  width: auto
+  height: auto
+  padding: 5px 0px
+  fontFamily: BT-BeauSans-Regular
+  fontSize: 13.28px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(37, 43, 55)
+  textAlign: left
+  opacity: 0
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  whiteSpace: nowrap
+  _box: 0,0,0,0
+## .right-menu
+  display: block
+  width: auto
+  height: auto
+  margin: -25px 0px 0px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: left
+  textDecoration: none
+  _box: 0,0,0,0
+## .sub-right
+  display: block
+  width: auto
+  height: auto
+  margin: 0px 0px 20px
+  fontFamily: BT-BeauSans-M
+  fontSize: 22.4px
+  fontWeight: 400
+  lineHeight: 31px
+  color: rgb(24, 29, 39)
+  textAlign: left
+  opacity: 0
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  textDecoration: none
+  _box: 0,0,0,0
+## .submenu .bottom-menu
+  display: block
+  position: relative
+  zIndex: 3
+  width: auto
+  height: auto
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: left
+  textDecoration: none
+  _box: 0,0,0,0
+  _before: {"content":"\"\"","w":"auto","h":"100%","bg":"none","bgc":"rgba(0, 0, 0, 0)","pos":"absolute","t":"0px","l":"-9999px","r":"-9999px","tr":"0.5s cubic-bezier(0.65, 0, 0.35, 1)","tf":"none","op":"1","ff":"BT-BeauSans-Regular, sans-serif","fs":"16px","c":"rgb(33, 37, 41)","bs":"auto"}
+  _after: {"content":"\"\"","w":"auto","h":"1px","bg":"none","bgc":"rgb(213, 215, 218)","pos":"absolute","t":"0px","l":"-9999px","r":"-9999px","b":"auto","tr":"all","tf":"none","op":"1","ml":"0px","bs":"auto","d":"block"}
+## .bg-menubottom
+  display: block
+  position: fixed
+  top: 90px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  zIndex: 2
+  width: 1440px
+  height: 900px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  backgroundColor: rgba(166, 166, 167, 0.8)
+  opacity: 0
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  visibility: hidden
+  textDecoration: none
+  _box: 0,90,1440,900
+## .menu-interest
+  display: none
+  position: relative
+  top: 0px
+  left: 0px
+  zIndex: 10
+  width: 100%
+  height: auto
+  padding: 3% 0px 0px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  backgroundColor: rgb(255, 255, 255)
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  textDecoration: none
+  _box: 0,0,0,0
+  _before: {"content":"\"\"","w":"auto","h":"1px","bg":"none","bgc":"rgb(213, 215, 218)","pos":"absolute","t":"15px","l":"-9999px","r":"-9999px","tr":"all","tf":"none","op":"1","ff":"BT-BeauSans-Regular, sans-serif","fs":"16px","c":"rgb(33, 37, 41)","bs":"auto"}
+  _after: {"content":"\"\"","w":"auto","h":"100%","bg":"none","bgc":"rgb(255, 255, 255)","pos":"absolute","t":"auto","l":"-9999px","r":"-9999px","b":"0px","tr":"0.5s cubic-bezier(0.65, 0, 0.35, 1)","tf":"none","op":"1","ml":"0px","bs":"auto","d":"block"}
+## .toggle-menu
+  display: inline-block
+  position: relative
+  width: 30px
+  height: 50px
+  margin: 0px 0px 0px 20px
+  padding: 1px 6px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 20px
+  fontWeight: 400
+  lineHeight: 20px
+  color: rgb(0, 0, 0)
+  textAlign: center
+  transition: 0.6s
+  cursor: pointer
+  textDecoration: none
+  _box: 0,0,0,0
+## .toggle-menu .line
+  display: block
+  position: absolute
+  right: 20%
+  bottom: 30%
+  left: 20%
+  width: auto
+  height: 2px
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 20px
+  fontWeight: 400
+  lineHeight: 20px
+  color: rgb(0, 0, 0)
+  textAlign: center
+  backgroundColor: rgb(24, 29, 39)
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  cursor: pointer
+  textDecoration: none
+  _box: 0,0,0,0
+## .logo-mobile
+  display: none
+  width: auto
+  height: auto
+  fontFamily: BT-BeauSans-Regular, sans-serif
+  fontSize: 16px
+  fontWeight: 400
+  lineHeight: 24px
+  color: rgb(33, 37, 41)
+  textAlign: start
+  textDecoration: none
+  _box: 0,0,0,0

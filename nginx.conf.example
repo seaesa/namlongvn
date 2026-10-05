@@ -1,0 +1,14 @@
+# Nginx: same clean-URL rules as .htaccess
+server {
+    listen 80;
+    root /var/www/namlongvn;          # project root
+    index index.html;
+
+    # /slug/index.html -> 301 /slug/
+    if ($request_uri ~ ^(.*/)index\.html(\?.*)?$) { return 301 $1$2; }
+
+    location / {
+        # /slug/ -> /slug/index.html ; /slug -> 301 /slug/ (nginx adds the slash for directories)
+        try_files $uri $uri/ =404;
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "namlongvn-clone",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 5173",
+    "qa": "node scripts/measure/qa.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  },
+  "description": "Static HTML clone. The site itself needs no build or Node; playwright is only used by the optional QA/measure scripts."
+}

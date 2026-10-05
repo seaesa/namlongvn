@@ -1,0 +1,211 @@
+/* ==========================================================================
+   Phát triển bền vững (/phat-trien-ben-vung/) — measured on the live site
+   at 1440 / 1280 / 1024 / 768 / 390 (see docs/research/components/sustainability.spec.md)
+   ========================================================================== */
+.page-sustain {
+  --i-circle-next: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='%2398221f'/%3E%3Cpath d='M7 12h9.5M12.5 8l4 4-4 4' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --i-mail: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%23181d27' stroke-width='1.3' stroke-linejoin='round'%3E%3Crect x='2' y='4' width='16' height='12.5' rx='2.5'/%3E%3Cpath d='m5 7.5 5 3.6 5-3.6' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+/* ---------- Banner: responsive image + heights of this template ---------- */
+.banner-alt { background-image: var(--bg-m); }
+@media (min-width: 768px)  { .banner-alt { background-image: var(--bg-t); } }
+@media (min-width: 1200px) { .banner-alt { background-image: var(--bg-d); } }
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .banner-alt { height: 480px; }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .banner-alt { height: 528px; aspect-ratio: auto; }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner-alt .page-banner__tag { padding-right: 294px; line-height: 27px; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-alt .page-banner__tag { font-size: 18px; line-height: 27px; }
+}
+
+/* ---------- Sections ---------- */
+.sus-section { padding: 60px 0; }
+.sus-section--report { padding: 24px 0 0; }
+.sus-section--contact { padding: 0 0 60px; }
+.sus-title {
+  position: relative; margin-bottom: 20px;
+  font-size: 37px; font-weight: 700; line-height: 44.4px; color: var(--ink);
+}
+
+/* ---------- Khung phát triển bền vững (3 cards, slick < 800px) ---------- */
+.sus-frame { position: relative; margin-top: 40px; }
+.sus-frame:not(.slick-initialized) { display: flex; margin-left: -10px; margin-right: -10px; }
+.sus-frame:not(.slick-initialized) .sus-frame__item { flex: 1 1 0; }
+.sus-frame .slick-list { margin: 0 -10px; }
+.sus-frame__item { padding: 0 10px; }
+.sus-card {
+  position: relative; display: block; height: 520px;
+  border-radius: 8px; overflow: hidden; color: #fff;
+}
+.sus-card img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+.sus-card:hover { color: #fff; }
+.sus-card:hover img { transform: scale(1.1); }
+.sus-card__info {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 173px;
+  padding: 22.4px 24px 19.2px;
+  border-radius: 16px 16px 8px 8px;
+  background: linear-gradient(rgba(253, 253, 253, 0.2), rgba(253, 253, 253, 0.2)), rgba(16, 17, 18, 0.5);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+}
+.sus-card__info h3 {
+  position: relative; padding-right: 34px;
+  font-size: 27px; font-weight: 500; line-height: 1.2; color: #fff;
+}
+.sus-card__info h3::after {
+  content: ""; position: absolute; top: 10px; right: 0; width: 30px; height: 15px;
+  background: var(--i-arrow-long-w) right center / contain no-repeat;
+}
+/* dots (only rendered < 800px) */
+.sus-frame .slick-dots {
+  position: relative; top: 15px; display: flex; justify-content: center; align-items: center;
+  height: 24px; margin: 0; padding: 0;
+}
+.sus-frame .slick-dots li { width: 10px; height: 10px; margin: 0 5px; }
+.sus-frame .slick-dots button { position: relative; display: block; width: 10px; height: 10px; font-size: 0; transition: var(--t); }
+.sus-frame .slick-dots button::before {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 4px; height: 4px; margin: -2px 0 0 -2px;
+  border-radius: 50%; background: var(--red); opacity: 0.25; transition: var(--t);
+}
+.sus-frame .slick-dots button:hover::before { opacity: 0.75; }
+.sus-frame .slick-dots .slick-active button::before { opacity: 1; }
+
+/* ---------- Đóng góp nổi bật (fade slider, text left / image right) ---------- */
+.impact { position: relative; margin: -60px 0 30px; }
+.impact__slide { display: grid !important; grid-template-columns: 1fr 1fr; }
+.impact__text { padding: 50px 50px 0 0; }
+.impact__text small { font-size: 15px; line-height: 24px; color: #414651; }
+.impact__text h3 { margin: 10px 0 15px; font-size: 24px; font-weight: 500; line-height: 28.8px; color: #414651; }
+.impact__text p { margin-bottom: 16px; }
+.impact__img { display: block; height: 420px; border-radius: 8px; overflow: hidden; }
+.impact__img img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+.impact__img:hover img { transform: scale(1.1); }
+
+/* ---------- Báo cáo phát triển bền vững ---------- */
+.report { display: flex; gap: 30px 35.2px; margin: 30px 0; }
+.report__main, .report__list { flex: 1 1 0; min-width: 0; }
+.report__list { display: flow-root; }
+.report__main { position: relative; height: 360px; border-radius: 8px; overflow: hidden; }
+.report__cover { display: block; height: 100%; color: #fff; }
+.report__cover:hover { color: #fff; }
+.report__cover img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 8px; transition: transform 0.5s; }
+.report__cover:hover img { transform: scale(1.1); }
+.pdf-pill {
+  position: absolute; top: 20px; left: 20px; display: flex; align-items: center;
+  width: 90px; height: 32px; padding: 4px 15px; border-radius: 20px;
+  background: #fff; font-weight: 500; line-height: 24px; color: var(--red);
+}
+.pdf-pill::after, .pdf-link::after {
+  content: ""; position: absolute; top: 4px; right: 10px; width: 24px; height: 24px;
+  background: var(--i-circle-next) center / contain no-repeat; transition: var(--t);
+}
+.report__info {
+  position: absolute; left: 0; right: 0; bottom: 0; padding: 20px 25px;
+  border-radius: 16px 16px 0 0;
+  background: linear-gradient(rgba(253, 253, 253, 0.2), rgba(253, 253, 253, 0.2)), rgba(16, 17, 18, 0.5);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+}
+.report__info span { display: block; margin-bottom: 10px; font-size: 14px; line-height: 24px; color: var(--line); }
+.report__info h3 { margin-bottom: 8px; font-size: 20px; font-weight: 700; line-height: 24px; color: #fff; }
+
+.doc-row {
+  display: flex; justify-content: space-between; align-items: center; gap: 32px 16px;
+  margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--line);
+}
+.doc-row h4 { font-size: 17.6px; font-weight: 700; line-height: 21.12px; color: var(--menu); }
+.doc-row h4 a { display: inline-block; }
+.doc-row__meta { display: flex; flex: 0 0 auto; align-items: center; gap: 8px; text-align: right; }
+.pdf-link {
+  position: relative; display: flex; align-items: center; width: 75px; height: 24px;
+  font-weight: 500; line-height: 24px; color: var(--red);
+}
+.pdf-link::after { top: 0; }
+@media (min-width: 1200px) { .pdf-link:hover::after, .report__cover:hover .pdf-pill::after { right: 4px; } }
+.doc-row__date { font-size: 15px; line-height: 24px; color: #535862; }
+
+/* older reports: empty container kept for parity with the original */
+.report-more { margin: 30px auto; }
+.report-more__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+
+/* ---------- Contact box ---------- */
+.sus-contact { margin-top: 50px; padding-top: 70px; }
+.sus-contact h6 { margin: 0 0 8px; font-size: 16px; font-weight: 500; line-height: 19.2px; color: var(--muted); }
+.sus-contact h5 { margin: 15px 0 25px; font-size: 20px; font-weight: 700; line-height: 24px; color: #000; }
+.sus-contact__info { padding: 20px 0; border-top: 1px solid var(--line); }
+.sus-contact__email {
+  position: relative; margin-bottom: 10px; padding-left: 30px; color: var(--ink);
+}
+.sus-contact__email::before {
+  content: ""; position: absolute; left: 0; top: 2px; width: 20px; height: 20px;
+  background: var(--i-mail) left center / contain no-repeat;
+}
+
+/* ---------- Responsive ---------- */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .sus-card__info h3 { font-size: 24px; }
+  .impact__img { height: 352px; }
+  .report__main { height: 350px; }
+  .doc-row__date, .pdf-link { font-size: 14.24px; }
+}
+@media (max-width: 1199px) {
+  .sus-card { height: 420px; }
+  .sus-card__info { height: 152px; }
+  .sus-card__info h3 { font-size: 23px; }
+  .impact__img { height: 310px; }
+  .report__main { height: 350px; }
+}
+@media (max-width: 991px) {
+  .sus-title { font-size: 36px; line-height: 43.2px; }
+  .sus-frame { margin-bottom: 30px; }
+  .sus-card { height: 470px; }
+  .sus-card__info { height: 148px; }
+  .sus-card__info h3 { font-size: 22px; }
+  .report { gap: 30px; }
+}
+@media (max-width: 767px) {
+  .sus-section { padding: 40px 0; }
+  .sus-section--report { padding: 24px 0 0; }
+  .sus-section--contact { padding: 0 0 40px; }
+  .sus-title { font-size: 36px; line-height: 46px; letter-spacing: -0.72px; }
+  .sus-card { height: 390px; }
+  .sus-card__info { height: 136px; }
+  .sus-card__info h3 { font-size: 20.8px; line-height: 24px; }
+
+  .impact { margin: 30px 0; }
+  .impact__slide { display: block !important; position: relative; }
+  .impact__img { height: 480px; }
+  .impact__text {
+    position: absolute; left: 0; right: 0; bottom: 0; z-index: 2;
+    padding: 15px 15px 10px; border-radius: 16px 16px 8px 8px; color: #fff;
+    background: linear-gradient(rgba(16, 17, 18, 0.4), rgba(16, 17, 18, 0.4)), linear-gradient(rgba(253, 253, 253, 0.2), rgba(253, 253, 253, 0.2));
+    -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  }
+  .impact__text small { font-size: 16px; color: #fff; }
+  .impact__text h3 { margin: 5px 0 10px; font-size: 36px; line-height: 43.2px; color: #fff; }
+  .impact__text p { font-size: 14px; color: #fff; }
+  .impact__more { display: none; }
+
+  .report { display: block; margin: 30px 0 15px; }
+  .report__main { height: 224px; }
+  .report__info { padding: 16px; }
+  .report__info span { font-size: 12px; line-height: 18px; }
+  .report__info h3 { line-height: 30px; }
+  .report__list { margin-top: 25px; }
+  .doc-row { flex-wrap: wrap; gap: 8px 16px; }
+  .doc-row h4 { font-size: 18px; line-height: 21.6px; }
+  .report-more { margin: 0 auto 15px; }
+  .report-more__grid { grid-template-columns: 1fr; gap: 12px; }
+}
+@media (max-width: 479px) {
+  .sus-frame .slick-list { padding-right: 80px; }
+}
+/* single-slide fade slider: the original renders an empty, invisible dots list */
+.impact .slick-dots { display: none !important; }
+/* line breaks that only exist on one side of 768px (as on the original) */
+@media (min-width: 768px) { .br-m { display: none; } }
+@media (max-width: 767px) { .br-d { display: none; } }
