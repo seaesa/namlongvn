@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "khu-do-thi-waterpoint",
+    "name": "Khu Đô Thị Waterpoint",
+    "banner": "https://www.namlongvn.com/wp-content/uploads/2025/07/Waterpoint-banner.jpg",
+    "overview": "https://www.namlongvn.com/wp-content/uploads/2025/09/250825_Tong-the-cac-du-an-BDS-TM-NLCP-2-scaled.png",
+    "location": "",
+    "content": "https://www.namlongvn.com/wp-content/uploads/2025/09/WTP_VN_2-2.jpg",
+    "contentW": 1929,
+    "contentH": 1352,
+    "project": "khu-do-thi-waterpoint"
+  },
+  {
+    "slug": "mizuki-park",
+    "name": "Mizuki Park",
+    "banner": "https://www.namlongvn.com/wp-content/uploads/2025/07/mizuki-park-1-banner.jpg",
+    "overview": "https://www.namlongvn.com/wp-content/uploads/2025/09/mizuki-vn.jpg",
+    "location": "Đại lộ Nguyễn Văn Linh, TP. HCM",
+    "content": "https://www.namlongvn.com/wp-content/uploads/2025/09/Mizuki_VN-2048x701.jpg",
+    "contentW": 1920,
+    "contentH": 658,
+    "project": "mizuki-park"
+  },
+  {
+    "slug": "khu-do-thi-izumi-city",
+    "name": "Khu Đô Thị Izumi City",
+    "banner": "https://www.namlongvn.com/wp-content/uploads/2025/07/izumi-city-banner.jpg",
+    "overview": "https://www.namlongvn.com/wp-content/uploads/2025/09/izumi-vn.jpg",
+    "location": "Biên Hoà, Đồng Nai",
+    "content": "https://www.namlongvn.com/wp-content/uploads/2025/09/Izumi_VN-2048x1263.jpg",
+    "contentW": 1920,
+    "contentH": 1184,
+    "project": "khu-do-thi-izumi-city"
+  },
+  {
+    "slug": "khu-do-thi-nam-long-dai-phuoc",
+    "name": "Khu đô thị Nam Long Đại Phước",
+    "banner": "https://www.namlongvn.com/wp-content/uploads/2025/09/nam-long-dai-phuoc-banner.jpg",
+    "overview": "https://www.namlongvn.com/wp-content/uploads/2025/09/nam-long-dai-phuoc-vn.jpg",
+    "location": "Nhơn Trạch, Đồng Nai",
+    "content": "https://www.namlongvn.com/wp-content/uploads/2025/09/Paragon-VN-2.jpg",
+    "contentW": 1912,
+    "contentH": 1061,
+    "project": ""
+  }
+]

@@ -1,4 +1,4 @@
-/* Tuyển dụng: core-values hover/carousel, sliders, CTA → jobs tab, job search + pagination, job modal */
+/* Tuyển dụng: core-values hover/carousel, sliders, CTA → jobs tab, job search + pagination (cards link to /vi-tri-tuyen-dung/<slug>/) */
 (function ($) {
   'use strict';
 
@@ -128,25 +128,4 @@
     page = 1; render();
   });
   render();
-
-  /* ---------- Job detail modal ---------- */
-  var $modal = $('#job-modal'), lastFocus = null;
-  function openJob(card) {
-    var $c = $(card);
-    $modal.find('.job-modal__title').text($c.find('.job-card__title span').text());
-    $modal.find('.job-modal__info').html($c.find('.job-card__info').html());
-    lastFocus = document.activeElement;
-    $modal.addClass('is-open').attr('aria-hidden', 'false');
-    $('body').addClass('no-scroll');
-    $modal.find('.job-modal__close').trigger('focus');
-  }
-  function closeJob() {
-    if (!$modal.hasClass('is-open')) return;
-    $modal.removeClass('is-open').attr('aria-hidden', 'true');
-    $('body').removeClass('no-scroll');
-    if (lastFocus) lastFocus.focus();
-  }
-  $jobs.on('click', '.js-job-open', function () { openJob($(this).closest('.job-card')); });
-  $modal.on('click', '.js-job-close', closeJob);
-  $(document).on('keydown', function (e) { if (e.key === 'Escape') closeJob(); });
 })(jQuery);

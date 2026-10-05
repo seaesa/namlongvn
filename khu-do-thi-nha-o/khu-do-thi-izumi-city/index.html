@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KĐT tích hợp Izumi City – Nam Long Group</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/pages/projects.css">
+  <link rel="stylesheet" href="/assets/css/pages/project-detail.css">
+</head>
+<body class="is-loading page-project-detail">
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <img class="preloader__logo" src="https://www.namlongvn.com/wp-content/themes/namlong/images/logo.svg" alt="Nam Long">
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <div class="nav-bar">
+        <a class="nav-bar__logo-mobile" href="/"><img class="js-final-logo" src="https://www.namlongvn.com/wp-content/themes/namlong/images/logo.svg" alt="Nam Long"></a>
+
+        <div class="nav-bar__tools-mobile">
+          <a href="#search" class="icon-search js-open-search" aria-label="Tìm kiếm"></a>
+          <button class="burger js-toggle-menu" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+
+        <div class="nav-panel" id="navPanel">
+          <a class="nav-panel__logo-mobile" href="/"><img src="https://www.namlongvn.com/wp-content/themes/namlong/images/logo.svg" alt="Nam Long"></a>
+          <a class="nav-panel__logo" href="/"><img class="js-final-logo" src="https://www.namlongvn.com/wp-content/themes/namlong/images/logo.svg" alt="Nam Long"></a>
+
+          <nav class="nav-panel__nav">
+            <ul class="menu">
+              <li class="menu__item has-sub">
+                <a href="/gioi-thieu/">Giới thiệu</a>
+                <div class="mega">
+                  <div class="mega__top">
+                    <div class="mega__left">
+                      <span class="mega__title">Giới thiệu</span>
+                      <div class="mega__links">
+                        <a href="/gioi-thieu/#s-vision">Sứ mệnh, Tầm nhìn và Giá trị cốt lõi</a>
+                        <a href="/gioi-thieu/#s-legacy">Hành trình phát triển</a>
+                        <a href="/gioi-thieu/#s-directors">Hội đồng Quản trị</a>
+                        <a href="/gioi-thieu/#s-management">Ban Giám đốc</a>
+                      </div>
+                    </div>
+                    <div class="mega__right">
+                      <div class="mega__lead">Chung tay kiến tạo môi trường sống, sản phẩm giá trị vì cộng đồng</div>
+                      <a class="link-more" href="/gioi-thieu/">Khám phá thêm</a>
+                    </div>
+                  </div>
+                  <div class="mega__bottom"><a href="#" class="js-open-interest">Tìm kiếm theo nhu cầu</a></div>
+                </div>
+              </li>
+              <li class="menu__item has-sub">
+                <a href="/linh-vuc-kinh-doanh/">Lĩnh vực kinh doanh</a>
+                <div class="mega">
+                  <div class="mega__top">
+                    <div class="mega__left">
+                      <span class="mega__title">Lĩnh vực kinh doanh</span>
+                      <div class="mega__links">
+                        <a href="/dau-tu-quan-ly-dau-tu/">Đầu tư &amp; Quản lý đầu tư</a>
+                        <a href="/phat-trien-nha-o-vua-tui-tien/">Giải pháp Nhà ở vừa túi tiền</a>
+                        <a href="/phat-trien-khu-do-thi-nha-o/">Phát triển Khu đô thị &amp; Nhà ở</a>
+                        <a href="/dich-vu-xay-dung/">Dịch vụ Xây dựng</a>
+                        <a href="/dau-tu-phat-trien-bat-dong-san-thuong-mai/">Đầu tư &amp; Phát triển Bất động sản Thương mại</a>
+                      </div>
+                    </div>
+                    <div class="mega__right">
+                      <div class="mega__lead">Hoạt động trên toàn chuỗi giá trị bất động sản, hướng tới tăng trưởng bền vững</div>
+                      <a class="link-more" href="/linh-vuc-kinh-doanh/">Khám phá thêm</a>
+                    </div>
+                  </div>
+                  <div class="mega__bottom"><a href="#" class="js-open-interest">Tìm kiếm theo nhu cầu</a></div>
+                </div>
+              </li>
+              <li class="menu__item"><a href="/phat-trien-khu-do-thi-nha-o/">Dự án</a></li>
+              <li class="menu__item"><a href="/quan-he-nha-dau-tu/">Quan hệ nhà đầu tư</a></li>
+              <li class="menu__item menu__item--leaf"><a href="/phat-trien-ben-vung/">Phát triển bền vững</a></li>
+              <li class="menu__item"><a href="/tin-tuc/">Tin tức</a></li>
+              <li class="menu__item"><a href="/tuyen-dung/">Tuyển dụng</a></li>
+              <li class="menu__item"><a href="/lien-he/">Liên hệ</a></li>
+            </ul>
+
+            <div class="nav-panel__interest-mobile"><a href="#" class="js-open-interest">Tìm kiếm theo nhu cầu</a></div>
+            <a href="#search" class="icon-search nav-panel__search js-open-search" aria-label="Tìm kiếm"></a>
+            <div class="lang">
+              <a href="#" class="is-active">VI</a>
+              <a href="#">EN</a>
+            </div>
+          </nav>
+        </div>
+
+        <!-- "Tìm kiếm theo nhu cầu" panel -->
+        <div class="interest" id="interest">
+          <button class="interest__back js-close-interest">Tìm kiếm theo nhu cầu</button>
+          <div class="interest__grid">
+            <div class="interest__tabs">
+              <div class="interest__tab is-active" data-target="investor">Nhà đầu tư &amp; Đối tác</div>
+              <div class="interest__tab" data-target="homebuyers">Người mua nhà</div>
+            </div>
+            <div class="interest__panes">
+              <div class="interest__pane is-active" id="investor">
+                <h3>Nâng cao giá trị cho Khách hàng, Đối tác và Cổ đông</h3>
+                <a class="link-more" href="/quan-he-nha-dau-tu/">Xem thêm</a>
+                <div class="interest__links">
+                  <a href="/gioi-thieu/">Giới thiệu</a><a href="/linh-vuc-kinh-doanh/">Lĩnh vực kinh doanh</a><a href="/quan-he-nha-dau-tu/">Quan hệ nhà đầu tư</a><a href="/phat-trien-ben-vung/">Phát triển bền vững</a><a href="/tin-tuc/">Tin tức</a>
+                </div>
+              </div>
+              <div class="interest__pane" id="homebuyers">
+                <h3>Hơn 30 năm đồng hành cùng đô thị Việt Nam</h3>
+                <a class="link-more" href="/phat-trien-khu-do-thi-nha-o/">Xem thêm</a>
+                <div class="interest__links">
+                  <a href="/gioi-thieu/">Giới thiệu</a><a href="/phat-trien-khu-do-thi-nha-o/">Phát triển Khu đô thị &amp; Nhà ở</a><a href="/phat-trien-nha-o-vua-tui-tien/">Giải pháp Nhà ở vừa túi tiền</a><a href="/tin-tuc/">Tin tức</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-backdrop"></div>
+  </header>
+
+  <!-- Search overlay -->
+  <div class="search" id="search">
+    <div class="container">
+      <form class="search__form" action="#" onsubmit="return false">
+        <input type="search" class="search__input" placeholder="Bạn muốn tìm kiếm điều gì?">
+        <button type="submit" class="search__submit" aria-label="Tìm"></button>
+      </form>
+      <div class="search__title">Những tìm kiếm nổi bật</div>
+      <ul class="search__tags">
+        <li><a href="#">Phát triển khu đô thị &amp; nhà ở</a></li>
+        <li><a href="#">Phát triển nhà ở vừa túi tiền</a></li>
+        <li><a href="#">Dự án Akari city</a></li>
+        <li><a href="#">Dự án Izumi City</a></li>
+        <li><a href="#">Khu đô thị Waterpoint</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main id="main">
+    <div class="back-link">
+      <div class="container"><a href="/phat-trien-khu-do-thi-nha-o/">Dự án</a></div>
+    </div>
+
+    <section class="page-banner page-banner--single pd-banner" style="background-image:url('https://www.namlongvn.com/wp-content/uploads/2025/07/izumi-city-banner.jpg')">
+      <div class="container">
+        <div class="page-banner__inner" data-stagger>
+          <h1 class="reveal">Khu đô thị tích hợp Izumi City</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="sub-section pd-main">
+      <div class="container" data-stagger>
+        <div class="lead-text pd-lead reveal"><p>Nội dung minh họa cho dự án Khu đô thị tích hợp Izumi City trong bản clone. Đoạn văn được viết riêng để giữ bố cục; vui lòng xem website Nam Long để biết thông tin chính thức. Phần mô tả chi tiết của dự án không được sao chép trong bản clone này. Văn bản giữ chỗ có độ dài tương đương để trang hiển thị cân đối như bản gốc. Thông tin chính thức về Khu đô thị tích hợp Izumi City được công bố trên kênh của Nam Long. Đây là đoạn văn mẫu, không phản ánh nội dung thực tế của trang gốc. Nội dung minh họa cho dự án Khu đô thị tích hợp Izumi City trong bản clone. Đoạn văn được viết riêng để giữ bố cục; vui lòng xem website Nam Long để biết thông tin chính thức. Phần mô tả chi tiết của dự án không được sao chép trong bản clone này. Văn bản giữ chỗ có độ dài tương đương để trang hiển thị cân đối như bản gốc.</p></div>
+        <div class="pd-info reveal">
+          <table class="pd-info__table"><tbody>
+              <tr><td>Dòng sản phẩm</td><td>Flora, Valora</td></tr>
+              <tr><td>Vị trí</td><td>Biên Hòa, Đồng Nai</td></tr>
+              <tr><td>Quy mô dự án</td><td>170ha</td></tr>
+              <tr><td>Tiến độ</td><td>Đang triển khai</td></tr>
+              <tr><td>Website dự án</td><td><a class="link-more pd-info__link" href="https://izumicity.vn/" target="_blank" rel="noopener">Xem thêm</a></td></tr>
+            </tbody></table>
+        </div>
+        <div class="pd-gallery reveal">
+          <div class="pd-gallery__slider js-pd-gallery">
+            <div class="pd-gallery__item"><img src="https://www.namlongvn.com/wp-content/uploads/2025/07/izumi-city-1-1.jpg" alt="Khu đô thị tích hợp Izumi City"></div>
+            <div class="pd-gallery__item"><img src="https://www.namlongvn.com/wp-content/uploads/2025/07/izumi-city-2-1.jpg" alt="Khu đô thị tích hợp Izumi City"></div>
+            <div class="pd-gallery__item"><img src="https://www.namlongvn.com/wp-content/uploads/2025/07/izumi-city-3-1.jpg" alt="Khu đô thị tích hợp Izumi City"></div>
+            <div class="pd-gallery__item"><img src="https://www.namlongvn.com/wp-content/uploads/2025/07/izumi-city-4-1.jpg" alt="Khu đô thị tích hợp Izumi City"></div>
+            <div class="pd-gallery__item"><img src="https://www.namlongvn.com/wp-content/uploads/2025/07/izumi-city-5-1.jpg" alt="Khu đô thị tích hợp Izumi City"></div>
+            <div class="pd-gallery__item"><img src="https://www.namlongvn.com/wp-content/uploads/2025/07/izumi-city-6.jpg" alt="Khu đô thị tích hợp Izumi City"></div>
+          </div>
+        </div>
+        <div class="pd-body reveal"><p>Đoạn văn được viết riêng để giữ bố cục; vui lòng xem website Nam Long để biết thông tin chính thức. Phần mô tả chi tiết của dự án không được sao chép trong bản clone này. Văn bản giữ chỗ có độ dài tương đương để trang hiển thị cân đối như bản gốc. Thông tin chính thức về Khu đô thị tích hợp Izumi City được công bố trên kênh của Nam Long. Đây là đoạn văn mẫu, không phản ánh nội dung thực tế của trang gốc. Nội dung minh họa cho dự án Khu đô thị tích hợp Izumi City trong bản clone. Đoạn văn được viết riêng để giữ bố cục; vui lòng xem website Nam Long để biết thông tin chính thức. Phần mô tả chi tiết của dự án không được sao chép trong bản clone này. Văn bản giữ chỗ có độ dài tương đương để trang hiển thị cân đối như bản gốc.</p><p>- Các chỉ số quy hoạch đáng chú ý:</p><p>+ Sản phẩm: 10.750 sản phẩm</p><p>+ Dân số quy hoạch: 24.500 người</p><p>+ Mảng xanh: 20ha</p><p>+ Diện tích thương mại: 10ha</p><p>+ Diện tích mặt nước: 6ha</p><p>+ Diện tích giáo dục: 7ha</p></div>
+      </div>
+    </section>
+
+    <section class="sub-section pd-legal">
+      <div class="container">
+        <button type="button" class="pd-legal__toggle js-legal-toggle" aria-expanded="true" aria-label="Thu gọn / mở rộng"></button>
+        <h2 class="section-title pd-legal__title reveal" data-delay="3">Pháp lý</h2>
+        <div class="pd-legal__content js-legal-content">
+          <div class="pd-docs is-collapsed" data-stagger>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Bảng thống kê 275 P1A1 – Cập nhật ngày 16.02.2022</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/BANG-THONG-KE-275-P1A1-UPDATE-20220216.xlsx" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Mẫu Hợp đồng Mua bán – Tách ba giá (đất, xây dựng, giá trị thương mại) áp dụng cho dự án Tháp Tầng Izumi giai đoạn 3</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/Template-SPA_upload-web.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 892/QĐ-UBND</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/20150413_-So-892_QD-UBND.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 890/QĐ-UBND</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/20150413-So-890_QD-UBND.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 1529/QĐ-UBND</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/20140528_-So-1529_QD-UBND.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 1497/QĐ-UBND</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/20140527-So-1497_QD-UBND.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 3848/QĐ-UBND – Đợt 2</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/20091228-_So-3848-QD-UBND-dot-2.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 2609/QĐ-UBND – Đợt 1</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/20090915_-So-2609_QD-UBND-dot-1.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Giấy chứng nhận quyền sử dụng đất – Tiểu khu 1A1</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/17.-GCN-QSDD-2021-_-Tieu-khu-1A1.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Thỏa thuận cung cấp dịch vụ quản lý vận hành ngoại vi</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/03_Templates-of-TMA.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Nội quy chung về quản lý và sử dụng khu nhà</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/02_Templates-of-IR.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Mẫu Hợp đồng Mua bán (SPA)</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/01_Templates-of-SPA.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Thông báo khởi công dự án Valora gửi UBND TP. Biên Hòa – DNWF</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/20220831-DNWF-Thong-bao-khoi-cong-gui-UBND-Tp-Bien-Hoa-XD-Valora.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Văn bản số 1807/SXD-QLN-TTBĐS – Thông báo bán nhà ở hình thành trong tương lai</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/8.-20230526_1807-SXD-QLN-TTBDS_Van-ban-thong-bao-ban-nha-o-hinh-thanh-tuong-lai.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Thông báo về việc phát hành bảo lãnh OCB</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/7.-20221115_Thong-bao-viec-phat-hanh-bao-lanh-OCB.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 890/QĐ-UBND</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/6.-20150413-So-890_QD-UBND.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 892/QĐ-UBND</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/6.-20150413_-So-892_QD-UBND.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Thông báo số 153/TB-SXD – Kết quả kiểm tra nghiệm thu công trình</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/4.-20230421_153-TB-SXD_Thong-bao-ket-qua-kiem-tra-nghiem-thu-cong-trinh-SXD.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Thông báo khởi công dự án P1A1 – Số 119/DNWF.TB</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/3.-20221229_119.DNWF_.TB_Thong-bao-khoi-cong-P1A1.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Giấy phép xây dựng hạ tầng kỹ thuật P1A1 – Số 08/GPXD</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/2.-20221226_08.GPXD_Giay-phep-xay-dung-HTKT-P1A1.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Báo cáo thẩm định dự án DNWF P1A – Số 35/HDXD-QLDA</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/1.-20220128_35.HDXD-QLDA_Bao-cao-tham-dinh-DNWF_P1A.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 2559/QĐ-UBND – Điều chỉnh cục bộ quy hoạch chi tiết 1/500 dự án DNWF (bản chính)</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/3.-20190816_2559.QD-UBND_Quyet-dinh-dieu-chinh-cuc-bo-QHCT-1.500-DNWF-ban-chinh.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 309 – Phê duyệt quy hoạch chi tiết xây dựng tỷ lệ 1/500</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/3.-20140127-309-Quyet-dinh-duyet-Quy-hoach-chi-tiet-xay-dung-ti-le-1.500.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 3570/QĐ-UBND – Điều chỉnh chủ trương đầu tư</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/2.-DNWF-06112019-UBND-No.3570-QD.UBND-QD-dieu-chinh-chu-truong.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 890/QĐ-UBND</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/2.-20150413-So-890_QD-UBND.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định số 892/QĐ-UBND</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/2.-20150413_-So-892_QD-UBND.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">IRC cập nhật tiến độ lần 4 (đến tháng 8.2026)</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/1.-20240527_IRC-cap-nhat-tien-do-lan-4_8.2026.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Quyết định điều chỉnh chủ trương đầu tư lần 1 (đến tháng 8.2026)</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/1.-20240520_1477.QD-UBND_Quyet-dinh-dieu-chinh-chu-truong-dau-tu-lan-1-den-8.2026_stamp.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+            <div class="pd-doc reveal">
+              <p class="pd-doc__title">Thông tin, dữ liệu về bất động sản, dự án bất động sản trước khi đưa vào kinh doanh</p>
+              <a class="pd-doc__link" href="https://www.namlongvn.com/wp-content/uploads/2025/07/Thong-tin-du-lieu-ve-bat-dong-san-du-an-bat-dong-san-truoc-khi-dua-vao-kinh-doanh.pdf" target="_blank" rel="noopener">PDF</a>
+            </div>
+          </div>
+          <div class="pd-legal__more reveal"><a href="#" class="u-line js-docs-more">Xem thêm</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pd-subs">
+      <div class="container" data-stagger>
+        <h2 class="section-title pd-subs__title reveal">Phân khu</h2>
+        <div class="reveal">
+          <div class="feat-slider js-pd-subs">
+              <div><a href="/khu-do-thi-nha-o/izumi-gardenia/" class="proj-card">
+                <div class="proj-card__img"><img src="https://www.namlongvn.com/wp-content/uploads/2025/07/izumi-phase-1a1-thumbnail.jpg" alt="Izumi Gardenia" loading="lazy"></div>
+                <div class="proj-card__info">
+                  <div class="proj-card__top"><span class="proj-card__status is-ongoing">Đang triển khai</span><span class="proj-card__logo"><img src="https://www.namlongvn.com/wp-content/uploads/2025/07/logo-izumi-city.svg" alt="Izumi Gardenia" loading="lazy"></span></div>
+                  <div class="proj-card__body">
+                    <h3 class="proj-card__name">Izumi Gardenia</h3>
+                    <small class="proj-card__loc">Biên Hòa, Đồng Nai</small>
+                    <small class="proj-card__note">Một dự án thuộc khu đô thị <strong>Izumi City</strong></small>
+                  </div>
+                </div>
+              </a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row">
+        <div class="footer__col footer__col--left reveal">
+          <img class="footer__logo" src="https://www.namlongvn.com/wp-content/themes/namlong/images/logo-w.svg" alt="Nam Long Group">
+          <div class="footer__mobile-contact">
+            <h3 class="footer__contact-link"><a href="/lien-he/">Liên hệ</a></h3>
+            <ul class="social">
+              <li><a href="#" aria-label="facebook" class="social__fb"></a></li>
+              <li><a href="#" aria-label="youtube" class="social__yt"></a></li>
+              <li><a href="#" aria-label="linkedin" class="social__in"></a></li>
+              <li><a href="#" aria-label="zalo" class="social__zalo"></a></li>
+            </ul>
+          </div>
+          <div class="footer__company">
+            <h3>CÔNG TY CỔ PHẦN ĐẦU TƯ NAM LONG (HOSE: NLG)</h3>
+            <p><strong>MST:</strong> 0301438936</p>
+            <p><strong>Địa chỉ:</strong> Số 6 Nguyễn Khắc Viện, P. Tân Mỹ, <span class="d-block-m">TP. Hồ Chí Minh</span></p>
+            <p><strong>Điện thoại:</strong> <a href="tel:+842854161718">(84-28) 54 16 17 18</a></p>
+            <p><strong>Email:</strong> info@namlongvn.com</p>
+            <a class="footer__policy" href="/chinh-sach-bao-mat-du-lieu-ca-nhan/">Chính sách bảo mật dữ liệu cá nhân</a>
+          </div>
+        </div>
+        <div class="footer__col footer__col--right reveal" data-delay="2">
+          <div class="footer__right">
+            <div class="footer__menu">
+              <a href="/gioi-thieu/">Giới thiệu</a><a href="/linh-vuc-kinh-doanh/">Lĩnh vực kinh doanh</a><a href="/phat-trien-khu-do-thi-nha-o/">Dự án</a><a href="/quan-he-nha-dau-tu/">Quan hệ nhà đầu tư</a><a href="/phat-trien-ben-vung/">Phát triển bền vững</a><a href="/tin-tuc/">Tin tức</a><a href="/tuyen-dung/">Tuyển dụng</a><a href="/lien-he/">Liên hệ</a>
+            </div>
+            <ul class="social">
+              <li><a href="#" aria-label="facebook" class="social__fb"></a></li>
+              <li><a href="#" aria-label="youtube" class="social__yt"></a></li>
+              <li><a href="#" aria-label="linkedin" class="social__in"></a></li>
+              <li><a href="#" aria-label="zalo" class="social__zalo"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__copy">Bản quyền ©2025 Nam Long Group</div>
+        <a class="footer__dmca" href="#"><img src="https://www.namlongvn.com/wp-content/themes/namlong/images/dmca.svg" alt="DMCA"></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="gotop" id="gotop" aria-label="Lên đầu trang"></button>
+
+  <!-- Cookie notice -->
+  <div class="cookie" id="cookie" role="dialog" aria-label="Cookie Notice">
+    <div class="cookie__inner">
+      <span class="cookie__text">Trang web sử dụng cookie để cải thiện hiệu suất và trải nghiệm. Bạn có thể chỉ cho phép cookie cần thiết hoặc chấp nhận tất cả.</span>
+      <span class="cookie__btns">
+        <button class="cookie__btn cookie__btn--ghost" data-cookie="necessary">Chỉ những Cookies cần thiết</button>
+        <button class="cookie__btn cookie__btn--solid" data-cookie="accept">Chấp nhận Cookies</button>
+      </span>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="/assets/js/pages/project-detail.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
