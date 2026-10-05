@@ -4,8 +4,8 @@
    Project cards (.proj-card) + .feat-slider + .u-line come from projects.css.
    ========================================================================== */
 :root {
-  --i-circle-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2398221f' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='11'/%3E%3Cpath d='M7 12h10M13 8l4 4-4 4'/%3E%3C/svg%3E");
-  --i-chevron-up: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 31' fill='none' stroke='%23252b37' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 19l7-7 7 7'/%3E%3C/svg%3E");
+  --i-circle-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='9' fill='%2398221f'/%3E%3Cpath d='M8 12h8M12.5 8.5 16 12l-3.5 3.5' fill='none' stroke='%23fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --i-arrow-up: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 31' fill='none' stroke='%23181d27' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 30V2M5 9l7-7 7 7'/%3E%3C/svg%3E");
 }
 
 /* ---------- Banner: title sits 20px above the bottom edge, auto width ---------- */
@@ -17,7 +17,7 @@
 }
 
 /* ---------- Intro + facts table + gallery + body (.section > .d-business / .project-info / .sbusiness / .exp-business) ---------- */
-.pd-lead { margin-bottom: 24px; }
+.pd-lead { display: flow-root; margin-bottom: 24px; }
 .pd-lead p, .pd-body p { margin: 0 0 16px; }
 .pd-info { margin-bottom: 50px; }
 .pd-info__table { width: 100%; border-collapse: collapse; color: #2b2e3c; }
@@ -45,7 +45,7 @@
 .pd-gallery .slick-dots button:hover::before { opacity: 0.75; }
 .pd-gallery .slick-dots .slick-active button::before { opacity: 1; }
 
-.pd-body { margin: 50px 0 30px; font-size: 20px; line-height: 29px; text-align: justify; }
+.pd-body { display: flow-root; margin: 50px 0 30px; font-size: 20px; line-height: 29px; text-align: justify; }
 
 @media (min-width: 1200px) and (max-width: 1439px) {
   .pd-body { font-size: 17.6px; line-height: 24px; }
@@ -90,7 +90,7 @@
   .pd-doc__title { font-size: 18px; line-height: 25px; }
   .pd-legal__toggle {
     position: absolute; top: 10px; right: 20px; z-index: 2; display: block; width: 24px; height: 31px; padding: 0;
-    background: var(--i-chevron-up) center top / contain no-repeat; font-size: 0;
+    background: var(--i-arrow-up) center top / contain no-repeat; font-size: 0;
     transform: rotate(90deg); transition: var(--t);
   }
   .pd-legal__toggle[aria-expanded="false"] { transform: rotate(180deg); }
@@ -99,6 +99,7 @@
 /* ---------- Sub-projects slider (.tb_block .s-featured.subdivision) ---------- */
 .pd-subs { padding: 0 0 60px; overflow-x: clip; }
 .pd-subs__title { margin-bottom: 20px; }
+.pd-subs .slick-dots:has(li:only-child) { height: 0; }
 .pd-subs .proj-card__img img { height: 430px; }
 @media (max-width: 767px) {
   .pd-subs { padding-bottom: 40px; }

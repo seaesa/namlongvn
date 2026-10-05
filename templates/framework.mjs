@@ -12,7 +12,7 @@ export const page = (item) => ({
 });
 
 const card = (r) => `
-            <div class="fw-related__item reveal">
+            <div class="fw-related__item reveal-item reveal">
               <a class="fw-card" href="/khung-phat-trien-ben-vung/${r.slug}/">
                 <img src="${esc(r.banner)}" alt="${esc(r.card)}">
                 <div class="fw-card__info"><h3 class="fw-card__title">${esc(r.card)}</h3></div>

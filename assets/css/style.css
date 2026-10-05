@@ -793,8 +793,13 @@ body.is-loading .hero__title, body.is-loading .hero__desc { animation: none !imp
   .footer__company p { margin-bottom: 3.2px; }
 }
 
-/* ---- footer: measured on the original at 768 and 1280 ---- */
-@media (min-width: 768px) and (max-width: 1199px) {
+/* ---- footer: measured on the original at 768, 1024 and 1280 ---- */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer__col--left { padding: 0 12px; }
+  .footer__col--right { padding: 5% 12px 0 5%; }
+  .footer__right .social { margin-top: 30px; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
   .footer__row { flex-direction: column; }
   .footer__col { width: 100%; }
   .footer__col--left { padding: 0 15px; }
