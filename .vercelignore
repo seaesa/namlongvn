@@ -1,0 +1,12 @@
+# Only the static site is deployed (pages, assets, 404.html). Tooling and research stay local.
+docs/
+scripts/
+templates/
+data/
+dist/
+node_modules/
+.playwright-mcp/
+package.json
+package-lock.json
+nginx.conf.example
+*.log

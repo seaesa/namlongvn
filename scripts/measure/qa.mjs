@@ -3,7 +3,7 @@ import { chromium } from 'playwright';
 import { readdirSync, existsSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 // every static page under the project root (excluding tooling folders)
-const skip = new Set(['assets', 'docs', 'node_modules', 'scripts', 'templates', 'data', '.playwright-mcp', 'en']);
+const skip = new Set(['assets', 'docs', 'node_modules', 'scripts', 'templates', 'data', '.playwright-mcp', 'dist', 'en']);
 const routes = [];
 (function walk(dir) {
   for (const n of readdirSync(dir)) {

@@ -3,6 +3,7 @@ server {
     listen 80;
     root /var/www/namlongvn;          # project root
     index index.html;
+    error_page 404 /404.html;
 
     # /slug/index.html -> 301 /slug/
     if ($request_uri ~ ^(.*/)index\.html(\?.*)?$) { return 301 $1$2; }

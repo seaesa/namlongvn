@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Chính sách bảo mật dữ liệu cá nhân — single text page (.sing-page on the original)
+   Measured at 1440 / 1280 / 1024 / 768 / 390 (see docs/research/components/policy.spec.md)
+   ========================================================================== */
+.policy { padding: 60px 0; }
+.policy__title {
+  position: relative; margin-bottom: 25px; padding-bottom: 25px;
+  border-bottom: 1px solid var(--line);
+  font-size: 37px; font-weight: 700; line-height: 44.4px; color: var(--ink);
+}
+.policy__body p { margin-bottom: 16px; }
+.policy__body strong { font-weight: 700; }
+.policy__body em { font-style: italic; }
+.policy__body a { color: #0d6efd; }
+.policy__body a:hover { color: var(--red); }
+
+@media (max-width: 991px) {
+  .policy__title { font-size: 32px; line-height: 38.4px; }
+}
+@media (max-width: 767px) {
+  .policy { padding: 40px 0; }
+  .policy__title { padding-bottom: 15px; font-size: 28px; line-height: 46px; letter-spacing: -0.56px; }
+}

@@ -458,3 +458,4 @@
   .inv-pricebox__col { padding-right: 16px; }
   .inv-pricebox__row b { font-size: 15.2px; }
 }
+@media (min-width: 1440px) { .inv-h3--fin { font-size: 25px; } } /* original: 25px at 1440 */

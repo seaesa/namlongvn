@@ -1,0 +1,118 @@
+/* ==========================================================================
+   Project detail (/khu-do-thi-nha-o/<slug>/) + commercial detail (/bat-dong-san-thuong-mai/<slug>/)
+   Measured on the original (Izumi City, EHome 1, Mizuki Park commercial) at 1440 / 1280 / 1024 / 768 / 390.
+   Project cards (.proj-card) + .feat-slider + .u-line come from projects.css.
+   ========================================================================== */
+:root {
+  --i-circle-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='9' fill='%2398221f'/%3E%3Cpath d='M8 12h8M12.5 8.5 16 12l-3.5 3.5' fill='none' stroke='%23fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --i-arrow-up: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 31' fill='none' stroke='%23181d27' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 30V2M5 9l7-7 7 7'/%3E%3C/svg%3E");
+}
+
+/* ---------- Banner: title sits 20px above the bottom edge, auto width ---------- */
+.pd-banner .page-banner__inner { padding-bottom: 0; }
+.pd-banner h1 { max-width: none; }
+@media (max-width: 767px) {
+  .pd-banner .page-banner__inner { padding-bottom: 30px; }
+  .pd-banner h1 { margin: 0; font-size: 32px; line-height: 39px; }
+}
+
+/* ---------- Intro + facts table + gallery + body (.section > .d-business / .project-info / .sbusiness / .exp-business) ---------- */
+.pd-lead { display: flow-root; margin-bottom: 24px; }
+.pd-lead p, .pd-body p { margin: 0 0 16px; }
+.pd-info { margin-bottom: 50px; }
+.pd-info__table { width: 100%; border-collapse: collapse; color: #2b2e3c; }
+.pd-info__table td { padding: 16px 0; border-bottom: 1px solid var(--line); font-size: 16px; line-height: 24px; vertical-align: top; }
+.pd-info__table td:first-child { width: 45%; color: #414651; }
+.pd-info__link { font-size: 16px; }
+
+.pd-gallery { margin-bottom: 30px; }
+.pd-gallery__slider { position: relative; }
+.pd-gallery__slider .slick-list { margin: 0 -10px; }
+.pd-gallery__item { padding: 0 10px; }
+.pd-gallery__item img { display: block; width: 100%; height: 390px; border-radius: 8px; object-fit: cover; }
+.pd-gallery__slider:not(.slick-initialized) { display: flex; gap: 20px; overflow: hidden; }
+.pd-gallery__slider:not(.slick-initialized) .pd-gallery__item { flex: 0 0 calc(50% - 10px); padding: 0; }
+.pd-gallery .slick-dots {
+  position: relative; top: 25px; display: flex; justify-content: center; align-items: center;
+  height: 24px; margin: 0; padding: 0; list-style: none;
+}
+.pd-gallery .slick-dots li { width: 10px; height: 10px; margin: 0 5px; }
+.pd-gallery .slick-dots button { position: relative; display: block; width: 10px; height: 10px; padding: 0; font-size: 0; transition: var(--t); }
+.pd-gallery .slick-dots button::before {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 4px; height: 4px; margin: -2px 0 0 -2px;
+  border-radius: 50%; background: var(--red); opacity: 0.25; transition: var(--t);
+}
+.pd-gallery .slick-dots button:hover::before { opacity: 0.75; }
+.pd-gallery .slick-dots .slick-active button::before { opacity: 1; }
+
+.pd-body { display: flow-root; margin: 50px 0 30px; font-size: 20px; line-height: 29px; text-align: justify; }
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .pd-body { font-size: 17.6px; line-height: 24px; }
+  .pd-gallery__item img { height: 336px; }
+}
+@media (min-width: 992px) and (max-width: 1199px) { .pd-gallery__item img { height: 310px; } }
+@media (min-width: 768px) and (max-width: 991px) { .pd-gallery__item img { height: 250px; } }
+@media (max-width: 991px) { .pd-body { font-size: 18px; line-height: 27px; } }
+@media (max-width: 767px) {
+  .pd-gallery__item img { height: 230px; }
+  .pd-gallery .slick-dots { top: 15px; }
+}
+@media (max-width: 480px) {
+  .pd-lead, .pd-body { font-size: 17px; }
+  .pd-info__table td:first-child { width: 45%; }
+  .pd-info__link { padding-right: 35px; font-size: 14px; }
+}
+
+/* ---------- Legal documents (.s-project-legal) ---------- */
+.pd-legal { position: relative; }
+.pd-legal .container::before {
+  content: ""; position: absolute; top: -60px; left: 50%; width: calc(100% - 30px); height: 1px;
+  background: var(--line); transform: translateX(-50%);
+}
+.pd-legal__title { margin-bottom: 20px; }
+.pd-docs { color: #1a1d26; }
+.pd-doc { position: relative; padding: 16px 0; border-bottom: 1px solid #e1e4e8; }
+.pd-docs.is-collapsed .pd-doc:nth-child(n + 4) { display: none; }
+.pd-doc__title { margin: 0 0 16px; font-size: 17.6px; font-weight: 700; line-height: 24px; color: var(--menu); }
+.pd-doc__link { position: relative; display: flex; min-height: 24px; font-weight: 500; line-height: 24px; color: var(--red); }
+.pd-doc__link::after {
+  content: ""; position: absolute; left: 40px; top: 0; width: 24px; height: 24px;
+  background: var(--i-circle-arrow) center / contain no-repeat; transition: var(--t);
+}
+.pd-doc__link:hover::after { transform: translateX(6px); }
+.pd-legal__more { margin-top: 48px; text-align: center; }
+.pd-legal__toggle { display: none; }
+
+@media (max-width: 767px) {
+  .pd-legal .container::before { top: -40px; }
+  .pd-doc { margin-right: 20px; }
+  .pd-doc__title { font-size: 18px; line-height: 25px; }
+  .pd-legal__toggle {
+    position: absolute; top: 10px; right: 20px; z-index: 2; display: block; width: 24px; height: 31px; padding: 0;
+    background: var(--i-arrow-up) center top / contain no-repeat; font-size: 0;
+    transform: rotate(90deg); transition: var(--t);
+  }
+  .pd-legal__toggle[aria-expanded="false"] { transform: rotate(180deg); }
+}
+
+/* ---------- Sub-projects slider (.tb_block .s-featured.subdivision) ---------- */
+.pd-subs { padding: 0 0 60px; overflow-x: clip; }
+.pd-subs__title { margin-bottom: 20px; }
+.pd-subs .slick-dots:has(li:only-child) { height: 0; }
+.pd-subs .proj-card__img img { height: 430px; }
+@media (max-width: 767px) {
+  .pd-subs { padding-bottom: 40px; }
+}
+
+/* ---------- Commercial detail (.single-commercial) ---------- */
+.cd-overview { padding-top: 60px; }
+.cd-overview__img img, .cd-content img { display: block; width: 100%; height: auto; }
+.cd-loc { display: grid; grid-template-columns: 30% 60%; padding-top: 16px; }
+.cd-content { padding: 16px 0 60px; }
+.cd-content p { margin: 0 0 16px; }
+@media (min-width: 1200px) and (max-width: 1439px) { .cd-loc { font-size: 15px; } }
+@media (max-width: 767px) {
+  .cd-overview { padding-top: 40px; }
+  .cd-content { padding-bottom: 40px; }
+}

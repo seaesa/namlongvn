@@ -9,9 +9,12 @@
     "image": "https://www.namlongvn.com/wp-content/uploads/2025/07/bao-ve-moi-truong.jpg",
     "paragraphs": [
       "Nội dung minh họa cho trụ cột Bảo vệ môi trường trong bản clone. Đoạn văn được viết riêng để giữ bố cục; vui lòng xem website Nam Long để biết thông tin chính thức.",
-      "Đây là đoạn văn bản giữ chỗ thứ hai cho trụ cột Bảo vệ môi trường, chỉ nhằm tái tạo kiểu chữ, độ rộng và chiều cao của khối nội dung trên trang gốc. Văn bản này không phản ánh nội dung thật của Nam Long. Vui lòng tham khảo website chính thức để biết thông tin đầy đủ và chính xác nhất về trụ cột này."
+      "Nội dung minh họa cho bản clone, được viết riêng để giữ bố cục và độ dài hiển thị như trang gốc. Vui lòng xem website Nam Long để biết thông tin chính thức. Nội dung minh họa cho bản clone, được viết riêng để giữ bố cục và độ dài hiển thị như trang gốc. Vui lòng xem website Nam Long để biết thông tin chính thức. Nội dung minh họa cho bản clone, được viết riêng."
     ],
-    "related": ["kinh-doanh-co-trach-nhiem", "human-capital-development-and-community-engagement"]
+    "related": [
+      "kinh-doanh-co-trach-nhiem",
+      "human-capital-development-and-community-engagement"
+    ]
   },
   {
     "slug": "human-capital-development-and-community-engagement",
@@ -24,7 +27,10 @@
     "paragraphs": [
       "Nội dung minh họa cho trụ cột Phát triển nguồn nhân lực và gắn kết cộng đồng trong bản clone. Đoạn văn được viết riêng để giữ bố cục; vui lòng xem website Nam Long để biết thông tin chính thức. Phần văn bản giữ chỗ này được kéo dài có chủ đích để khối nội dung có số dòng tương đương trang gốc, giúp so sánh bố cục, khoảng cách và kiểu chữ giữa hai phiên bản. Văn bản không mô tả bất kỳ chương trình, số liệu hay hoạt động thực tế nào. Mọi thông tin chính xác về trụ cột này vui lòng tham khảo trực tiếp tại website chính thức của Nam Long. Đây là câu cuối cùng của đoạn giữ chỗ, được thêm vào chỉ để đảm bảo chiều cao khối văn bản tương ứng."
     ],
-    "related": ["kinh-doanh-co-trach-nhiem", "bao-ve-moi-truong"]
+    "related": [
+      "kinh-doanh-co-trach-nhiem",
+      "bao-ve-moi-truong"
+    ]
   },
   {
     "slug": "kinh-doanh-co-trach-nhiem",
@@ -36,8 +42,11 @@
     "image": "https://www.namlongvn.com/wp-content/uploads/2025/07/kinh-doanh-co-trach-nhiem.jpg",
     "paragraphs": [
       "Nội dung minh họa cho trụ cột Kinh doanh có trách nhiệm trong bản clone. Đoạn văn được viết riêng để giữ bố cục; vui lòng xem website Nam Long để biết thông tin chính thức.",
-      "Đây là đoạn văn bản giữ chỗ thứ hai cho trụ cột Kinh doanh có trách nhiệm, chỉ nhằm tái tạo kiểu chữ, độ rộng và chiều cao của khối nội dung trên trang gốc. Văn bản này không phản ánh nội dung thật của Nam Long. Vui lòng tham khảo website chính thức để biết thông tin đầy đủ và chính xác nhất về trụ cột này."
+      "Nội dung minh họa cho bản clone, được viết riêng để giữ bố cục và độ dài hiển thị như trang gốc. Vui lòng xem website Nam Long để biết thông tin chính thức. Nội dung minh họa cho bản clone, được viết riêng để giữ bố cục và độ dài hiển thị như trang gốc. Vui lòng xem website Nam Long để biết thông tin chính thức. Nội dung minh họa cho bản clone, được viết riêng để giữ."
     ],
-    "related": ["human-capital-development-and-community-engagement", "bao-ve-moi-truong"]
+    "related": [
+      "human-capital-development-and-community-engagement",
+      "bao-ve-moi-truong"
+    ]
   }
 ]

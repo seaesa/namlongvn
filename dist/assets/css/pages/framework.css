@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Khung phát triển bền vững — pillar pages (/khung-phat-trien-ben-vung/<slug>/)
+   Measured on the live site at 1440 / 1280 / 1024 / 768 / 390
+   (see docs/research/components/framework.spec.md)
+   ========================================================================== */
+
+/* ---------- Banner (single) ---------- */
+.fw-banner { background-position: center top; }
+.fw-banner h1 { max-width: none; }
+.fw-banner .page-banner__inner { display: inline-block; max-width: 100%; padding-bottom: 17px; }
+/* the tag wraps inside the h1's width (it never widens the title block) */
+.fw-banner .page-banner__tag { width: 0; min-width: 100%; font-weight: 400; }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .fw-banner .page-banner__tag { padding-right: 137px; line-height: 27px; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .fw-banner .page-banner__tag { font-size: 18px; line-height: 27px; }
+}
+@media (max-width: 767px) {
+  .fw-banner h1 { margin-bottom: 3px; font-size: 32px; line-height: 39px; }
+  .fw-banner .page-banner__tag { margin-bottom: 0; padding-right: 40px; font-size: 17px; line-height: 23px; }
+  .fw-banner .page-banner__inner { padding-bottom: 45px; }
+  .fw-banner .page-banner__tag { width: auto; }
+}
+
+/* ---------- Body text + infographic ---------- */
+.fw-content { padding: 60px 0; }
+.fw-content__body { margin-top: 8px; text-align: justify; }
+.fw-content__body p { margin-bottom: 16px; }
+.fw-content__figure { margin: 0 0 16px; }
+.fw-content__figure img { display: block; width: 100%; height: auto; aspect-ratio: 1440 / 810; margin-bottom: 20px; object-fit: cover; }
+
+/* ---------- Other pillars ---------- */
+.fw-related { margin-bottom: 24px; padding: 60px 0; }
+.fw-related__title { margin-bottom: 20px; font-size: 37px; font-weight: 700; line-height: 44.4px; color: var(--ink); }
+.fw-related__row { display: flex; margin: 24px -10px 0; }
+.fw-related__item { flex: 0 0 50%; max-width: 50%; padding: 0 10px; }
+.fw-card { position: relative; display: block; height: 460px; border-radius: 8px; overflow: hidden; color: #fff; }
+.fw-card:hover { color: #fff; }
+.fw-card img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+.fw-card:hover img { transform: scale(1.1); }
+.fw-card__info {
+  position: absolute; left: 0; right: 0; bottom: 0; min-height: 100px;
+  padding: 22.4px 24px 19.2px; border-radius: 16px 16px 8px 8px;
+  background: rgba(253, 253, 253, 0.2);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+}
+.fw-card__title {
+  position: relative; padding-right: 10%;
+  font-size: 27px; font-weight: 500; line-height: 1.2; color: #fff;
+}
+.fw-card__title::after {
+  content: ""; position: absolute; top: 12px; right: 0; width: 30px; height: 15px;
+  background: var(--i-arrow-long-w) right center / contain no-repeat;
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .fw-card__title { font-size: 24px; }
+}
+@media (max-width: 1199px) {
+  .fw-card { height: 370px; }
+  .fw-card__title { font-size: 23px; }
+}
+@media (max-width: 991px) {
+  .fw-related__title { font-size: 32px; line-height: 38.4px; }
+  .fw-card { height: 460px; }
+  .fw-card__info { min-height: 120px; }
+  .fw-card__title { margin-top: 10px; padding-right: 8%; font-size: 22px; }
+  .fw-card__title::after { top: 6px; }
+}
+@media (max-width: 767px) {
+  .fw-content { padding: 40px 0; }
+  .fw-related { padding: 40px 0; }
+  .fw-related__title { font-size: 40px; line-height: 46px; letter-spacing: -0.8px; }
+  .fw-card { height: 320px; }
+  .fw-card__info { min-height: 110px; }
+  .fw-card__title { position: static; margin-top: 0; padding-right: 10px; font-size: 14px; line-height: 22px; }
+  /* arrow anchors to the glass box (bottom-right) on mobile */
+  .fw-card__title::after { top: auto; right: 10px; bottom: 15px; }
+}

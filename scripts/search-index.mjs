@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 const root = new URL('..', import.meta.url).pathname;
-const skip = new Set(['assets', 'docs', 'node_modules', 'scripts', 'templates', 'data', '.git', '.playwright-mcp']);
+const skip = new Set(['assets', 'docs', 'node_modules', 'scripts', 'templates', 'data', '.git', '.playwright-mcp', 'dist']);
 const pages = [];
 (function walk(dir) {
   for (const name of readdirSync(dir)) {

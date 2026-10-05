@@ -1,5 +1,6 @@
 # Apache: serve /slug/ from /slug/index.html and never expose ".html" in URLs
 DirectoryIndex index.html
+ErrorDocument 404 /404.html
 Options -MultiViews
 RewriteEngine On
 

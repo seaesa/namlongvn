@@ -919,3 +919,12 @@ html.no-scroll, body.no-scroll { overflow: hidden; }
 @media (min-width: 768px) and (max-width: 1199px) {
   .lang { margin-top: 64px; } /* original tablet panel: VI/EN box starts at y=109 */
 }
+
+/* 404 page */
+.nf { padding: 120px 0 140px; }
+.nf__inner { max-width: 640px; }
+.nf__code { font-size: 120px; font-weight: 500; line-height: 1; color: var(--red); }
+.nf__title { margin: 20px 0 16px; }
+.nf__text { margin-bottom: 30px; color: var(--muted); }
+.nf__actions { display: flex; flex-wrap: wrap; gap: 16px 32px; }
+@media (max-width: 767px) { .nf { padding: 60px 0 80px; } .nf__code { font-size: 88px; } }
